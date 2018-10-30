@@ -1,4 +1,4 @@
-package polymorphizm;
+package polymorphism;
 
 class Cycle {
     private String name = "Cycle";
