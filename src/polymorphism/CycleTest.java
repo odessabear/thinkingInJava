@@ -2,39 +2,72 @@ package polymorphism;
 
 class Cycle {
     private String name = "Cycle";
+    private int wheels = 0;
+
     public static void move(Cycle cycle) {
-        System.out.println(cycle + " is moving");
+        System.out.print(cycle + " is moving ");
     }
-    public String toString(){
+
+    public int wheels() {
+        return wheels;
+    }
+
+    public String toString() {
         return this.name;
     }
 }
 
 class Unicycle extends Cycle {
     private String name = "Unicycle";
-    public String toString(){
+    private int wheels = 1;
+
+    @Override
+    public int wheels() {
+        return wheels;
+    }
+
+    public String toString() {
+
         return this.name;
     }
 }
 
-class Bicycle extends Cycle{
+class Bicycle extends Cycle {
     private String name = "Bicycle";
-    public String toString(){
+    private int wheels = 2;
+
+    @Override
+    public int wheels() {
+        return wheels;
+    }
+
+    public String toString() {
+
         return this.name;
     }
 }
 
-class Tricycle extends Cycle{
+class Tricycle extends Cycle {
     private String name = "Tricycle";
-    public String toString(){
+    private int wheels = 3;
+
+    @Override
+    public int wheels() {
+        return wheels;
+    }
+
+    public String toString() {
+
         return this.name;
     }
 }
 
 public class CycleTest {
-    public static void ride(Cycle cycle){
+    public static void ride(Cycle cycle) {
         cycle.move(cycle);
+        System.out.println(" with " + cycle.wheels() + " wheels");
     }
+
     public static void main(String[] args) {
         Unicycle unicycle = new Unicycle();
         Bicycle bicycle = new Bicycle();
