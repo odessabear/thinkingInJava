@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/music/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/music/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polymorphism/music/RandomInstrumentGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/CycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polymorphism/CycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polymorphism/music/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polymorphism/music/Music.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,67 +15,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/polymorphism/CycleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-              <folding>
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/polymorphism/music/Note.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/polymorphism/music/Music.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+            <state relative-caret-position="418">
+              <caret line="134" column="41" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
               <folding>
+                <element signature="e#74#75#0" expanded="true" />
                 <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
                 <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
                 <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
                 <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
                 <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-                <element signature="e#902#903#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-                <element signature="e#1011#1012#0" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
                 <element signature="e#1191#1192#0" expanded="true" />
-                <element signature="e#1242#1243#0" expanded="true" />
+                <element signature="e#1247#1248#0" expanded="true" />
+                <element signature="e#1279#1280#0" expanded="true" />
                 <element signature="e#1312#1313#0" expanded="true" />
-                <element signature="e#1245#1246#0" expanded="true" />
-                <element signature="e#1298#1299#0" expanded="true" />
-                <element signature="e#1319#1320#0" expanded="true" />
-                <element signature="e#1370#1371#0" expanded="true" />
+                <element signature="e#1371#1372#0" expanded="true" />
+                <element signature="e#1407#1408#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1476#1477#0" expanded="true" />
+                <element signature="e#1451#1452#0" expanded="true" />
+                <element signature="e#1475#1476#0" expanded="true" />
+                <element signature="e#1525#1526#0" expanded="true" />
                 <element signature="e#1555#1556#0" expanded="true" />
+                <element signature="e#1633#1634#0" expanded="true" />
                 <element signature="e#1679#1680#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/polymorphism/shape/Shapes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/polymorphism/music/RandomInstrumentGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -127,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/polymorphism/shape/Shapes.java" />
         <option value="$PROJECT_DIR$/src/polymorphism/CycleTest.java" />
         <option value="$PROJECT_DIR$/src/polymorphism/music/Note.java" />
+        <option value="$PROJECT_DIR$/src/polymorphism/music/RandomInstrumentGenerator.java" />
         <option value="$PROJECT_DIR$/src/polymorphism/music/Music.java" />
       </list>
     </option>
@@ -143,7 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,17 +156,25 @@
               <item name="polymorphism" type="462c0819:PsiDirectoryNode" />
               <item name="music" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="polymorphism" type="462c0819:PsiDirectoryNode" />
+              <item name="shape" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541006168833" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541171438363" />
     <property name="last_opened_file_path" value="D:/Project/studentProgress" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -297,26 +292,36 @@
       <workItem from="1532961831814" duration="12580000" />
       <workItem from="1539960873293" duration="3845000" />
       <workItem from="1540378294363" duration="6335000" />
+      <workItem from="1541169053492" duration="2203000" />
     </task>
+    <task id="LOCAL-00001" summary="polymorphism:worked with Music.java file">
+      <created>1541006261655</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541006261655</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42076000" />
+    <option name="totallyTimeSpent" value="46818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1922" y="1" width="1678" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19962917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20210136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3370044" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3370044" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,6 +345,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="polymorphism:worked with Music.java file" />
+    <option name="LAST_COMMIT_MESSAGE" value="polymorphism:worked with Music.java file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/patterns/AbstractFactory.java">
@@ -475,20 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/polymorphism/shape/RandomShapeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/polymorphism/shape/Shapes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/FinalTest2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -559,19 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/polymorphism/CycleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-          <folding>
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/polymorphism/music/Note.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -579,40 +561,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/polymorphism/music/Music.java">
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/CycleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
-          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
           <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/shape/RandomShapeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/music/RandomInstrumentGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/shape/Shapes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/music/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="134" column="41" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
+          <folding>
+            <element signature="e#74#75#0" expanded="true" />
             <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
             <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
             <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
             <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
             <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
             <element signature="e#1312#1313#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1476#1477#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
             <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1633#1634#0" expanded="true" />
             <element signature="e#1679#1680#0" expanded="true" />
           </folding>
         </state>
