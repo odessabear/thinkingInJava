@@ -6,14 +6,16 @@ public class Hamster extends Rodent {
     private Borning borning = new Borning(name);
     private Dying dying = new Dying(name);
 
-    public Hamster(){
+    public Hamster() {
         System.out.println(this.name + " is here");
     }
-    public void eat(String food){
+
+    public void eat(String food) {
         System.out.println("Hamster eats " + food);
     }
 
-    public void name(){
+    public void name() {
         System.out.println(this.name + " lives in a hole");
+
     }
 }
