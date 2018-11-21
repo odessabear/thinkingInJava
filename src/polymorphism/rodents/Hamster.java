@@ -6,7 +6,8 @@ public class Hamster extends Rodent {
     private Borning borning = new Borning(name);
     private Dying dying = new Dying(name);
 
-    public Hamster() {
+    public Hamster(Shared shared) {
+        super(shared);
         System.out.println(this.name + " is here");
     }
 
@@ -14,8 +15,7 @@ public class Hamster extends Rodent {
         System.out.println("Hamster eats " + food);
     }
 
-    public void name() {
-        System.out.println(this.name + " lives in a hole");
-
+    public String toString(){
+        return name + " , " + super.toString();
     }
 }
