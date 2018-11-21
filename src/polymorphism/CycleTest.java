@@ -12,6 +12,10 @@ class Cycle {
         return wheels;
     }
 
+//    public void balance(){
+//        System.out.println("Information about a balance");
+//    }
+
     public String toString() {
         return this.name;
     }
@@ -24,6 +28,10 @@ class Unicycle extends Cycle {
     @Override
     public int wheels() {
         return wheels;
+    }
+
+    public void balance(){
+        System.out.println("Bad balance");
     }
 
     public String toString() {
@@ -39,6 +47,9 @@ class Bicycle extends Cycle {
     @Override
     public int wheels() {
         return wheels;
+    }
+    public void balance(){
+        System.out.println("Normal balance");
     }
 
     public String toString() {
