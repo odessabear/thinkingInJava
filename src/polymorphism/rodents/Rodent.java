@@ -18,7 +18,7 @@ class Shared {
     }
 }
 
-public class Rodent {
+class Rodent {
     private Shared shared;
     private String name = "Rodent";
     private static long counter = 0;
@@ -36,7 +36,7 @@ public class Rodent {
         System.out.println("Rodent eats " + food);
     }
 
-    public String toString(){
+    public String toString() {
         return name + " , " + id;
     }
 }
