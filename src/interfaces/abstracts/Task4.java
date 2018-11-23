@@ -1,4 +1,4 @@
-package interfaces;
+package interfaces.abstracts;
 
 abstract class Basic {
 
@@ -24,11 +24,11 @@ class Child2 extends Basic2 {
 
 public class Task4 {
 
-    public static void test(Basic basic) {
+    private static void test(Basic basic) {
         ((Child) basic).doSomething();
     }
 
-    public static void test2(Basic2 basic2) {
+    private static void test2(Basic2 basic2) {
         basic2.doSomthing2();
     }
 

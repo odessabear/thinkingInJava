@@ -1,4 +1,4 @@
-package interfaces;
+package interfaces.abstracts;
 
 abstract class ExampleAbstract {
 
