@@ -1,5 +1,7 @@
 package polymorphism.music;
 
+import enums.Note;
+
 class Instrument {
 
     void play(Note note) {
