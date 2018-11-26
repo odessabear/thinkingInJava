@@ -1,8 +1,8 @@
-package interfaces.music;
+package interfaces.music.Task9;
 
 import enums.Note;
 
-public abstract class MusicAbstraction {
+abstract class MusicAbstraction {
 
     abstract void play(Note note);
 

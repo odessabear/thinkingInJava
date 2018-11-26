@@ -1,12 +1,8 @@
 package interfaces.music.Task9;
 
-package interfaces.music;
-
 import enums.Note;
-import interfaces.music.MusicAbstraction;
-import interfaces.subinterface.Instrument;
 
-class Wind extends MusicAbstraction {
+class Wind extends MusicAbstraction{
     @Override
     public void play(Note note) {
         System.out.println(this + ".play()" + note);
@@ -56,11 +52,11 @@ class Stringed extends MusicAbstraction{
     }
 }
 
-class Brass extends interfaces.music.Wind {
+class Brass extends Wind{
     public String toString(){return "Brass";}
 }
 
-class Woodwind extends interfaces.music.Wind {
+class Woodwind extends Wind{
     public String toString(){
         return "Woodwind";
     }
@@ -79,8 +75,8 @@ public class Music {
     }
 
     public static void main(String[] args) {
-        MusicAbstraction[] orchestra = {new interfaces.music.Wind(),new interfaces.music.Percussion(),new interfaces.music.Stringed(),
-                new interfaces.music.Brass(),new interfaces.music.Woodwind()};
+        MusicAbstraction[] orchestra = {new Wind(),new Percussion(),new Stringed(),
+        new Brass(),new Woodwind()};
 
         tuneAll(orchestra);
     }
