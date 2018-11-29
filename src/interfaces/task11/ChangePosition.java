@@ -12,7 +12,7 @@ public class ChangePosition implements Processor {
 
     @Override
     public String process(Object input) {
-        return null;
+        return null  ;
     }
 
     public String toChangePosition(){
