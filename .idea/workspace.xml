@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="interface tasks 8 and 9">
+    <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/interfaces/subinterface/Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/task11/Apply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/task11/ChangePosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/task11/Task11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/music/Music.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/music/MusicAbstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/music/Task9/MusicAbstraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/music/Task9/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/music/Task9/Music.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,67 +17,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/interfaces/subinterface/Processor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/polymorphism/CycleTest.java">
+        <entry file="file://$PROJECT_DIR$/src/interfaces/task11/Task11.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding>
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/abstracts/RodentAbstract.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-              <folding>
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-                <element signature="e#1094#1095#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1182#1183#0" expanded="true" />
-              </folding>
+              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/music/Task9/MusicAbstraction.java">
+        <entry file="file://$PROJECT_DIR$/src/interfaces/task11/Apply.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="119">
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/music/Task9/Music.java">
+        <entry file="file://$PROJECT_DIR$/src/interfaces/task11/ChangePosition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+            <state relative-caret-position="238">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="2899" column="20" lean-forward="true" selection-start-line="2899" selection-start-column="20" selection-end-line="2899" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -87,8 +75,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -99,10 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/inheritance/Frog.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/FinalTest.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/FinalTest2.java" />
-        <option value="$PROJECT_DIR$/src/polymorphizm/Shapes.java" />
         <option value="$PROJECT_DIR$/src/polymorphizm/Shape.java" />
         <option value="$PROJECT_DIR$/src/polymorphizm/Circle.java" />
         <option value="$PROJECT_DIR$/src/polymorphizm/Square.java" />
@@ -138,7 +122,6 @@
         <option value="$PROJECT_DIR$/src/interfaces/RodentAbstract.java" />
         <option value="$PROJECT_DIR$/src/interfaces/Example.java" />
         <option value="$PROJECT_DIR$/src/interfaces/Task4.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/abstracts/RodentAbstract.java" />
         <option value="$PROJECT_DIR$/src/interfaces/abstracts/SubInterfaceImpl.java" />
         <option value="$PROJECT_DIR$/src/interfaces/subinterface/SubInterface.java" />
         <option value="$PROJECT_DIR$/src/interfaces/subinterface/RodentIterface.java" />
@@ -150,6 +133,11 @@
         <option value="$PROJECT_DIR$/src/interfaces/music/Task9/Music.java" />
         <option value="$PROJECT_DIR$/src/interfaces/music/MusicAbstraction.java" />
         <option value="$PROJECT_DIR$/src/interfaces/music/Task9/MusicAbstraction.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/abstracts/RodentAbstract.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/subinterface/Processor.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/task11/Task11.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/task11/Apply.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/task11/ChangePosition.java" />
       </list>
     </option>
   </component>
@@ -165,6 +153,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,18 +172,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="task11" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543242665271" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543512879902" />
     <property name="last_opened_file_path" value="D:/Project/studentProgress" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -216,7 +211,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubInterfaceImpl">
+  <component name="RunManager" selected="Application.ChangePosition">
+    <configuration name="ChangePosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.task11.ChangePosition" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.task11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Music" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="polymorphism.music.Music" />
       <module name="ThinkingInJava" />
@@ -287,9 +295,11 @@
       <item itemvalue="Application.RodentInterfaceImpl" />
       <item itemvalue="Application.Sandwich" />
       <item itemvalue="Application.Music" />
+      <item itemvalue="Application.ChangePosition" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChangePosition" />
         <item itemvalue="Application.Sandwich" />
         <item itemvalue="Application.Music" />
         <item itemvalue="Application.RodentInterfaceImpl" />
@@ -311,6 +321,7 @@
       <workItem from="1539960873293" duration="3845000" />
       <workItem from="1540378294363" duration="6335000" />
       <workItem from="1541169053492" duration="7937000" />
+      <workItem from="1543506476011" duration="4372000" />
     </task>
     <task id="LOCAL-00001" summary="polymorphism:worked with Music.java file">
       <created>1541006261655</created>
@@ -333,17 +344,24 @@
       <option name="project" value="LOCAL" />
       <updated>1542301806491</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="errors fixing">
+      <created>1543251673557</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543251673557</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103480000" />
+    <option name="totallyTimeSpent" value="110097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1922" y="1" width="1678" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20210136" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20457354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -352,7 +370,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33259913" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,7 +379,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32929516" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32692307" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32692307" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -416,26 +434,10 @@
     <MESSAGE value="counting Task" />
     <MESSAGE value="last tasks in the polymorphism chapter" />
     <MESSAGE value="interface tasks 8 and 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="interface tasks 8 and 9" />
+    <MESSAGE value="errors fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="errors fixing" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/inheritance/TestC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/Chess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/Stem.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -691,17 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/polymorphism/CycleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces/abstracts/Example.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -850,58 +841,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces/music/Task9/Music.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/music/Task9/Music.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces/music/Task9/MusicAbstraction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces/abstracts/RodentAbstract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="163">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polymorphism/CycleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/task11/Task11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/task11/Apply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="2899" column="20" lean-forward="true" selection-start-line="2899" selection-start-column="20" selection-end-line="2899" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/task11/ChangePosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/subinterface/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
