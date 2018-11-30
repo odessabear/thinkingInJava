@@ -4,21 +4,19 @@ import interfaces.subinterface.Processor;
 
 import java.util.Arrays;
 
-public class ChangePosition implements Processor {
-    @Override
-    public String name() {
-        return getClass().getSimpleName();
-    }
+public class ChangePosition extends CharChanger{
 
-    @Override
-    public String process(Object input) {
-        return null  ;
-    }
-
-    public String toChangePosition(){
+    public static String toChangePosition(){
 
         return null;
     }
+
+    public String process(Object input){
+        return ((String)input).toLowerCase();
+    }
+
+
+
 
 //    public static void main(String[] args) {
 //        String s = "go fuck away";
