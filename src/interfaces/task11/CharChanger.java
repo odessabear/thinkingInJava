@@ -9,9 +9,4 @@ public abstract class CharChanger implements Processor {
 
     public abstract String process(Object input);
 
-    public static String s = "don't fuck my mind";
-
-    public static void main(String[] args) {
-
-    }
 }
