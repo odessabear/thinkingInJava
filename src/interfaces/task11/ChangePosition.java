@@ -19,7 +19,6 @@ public class ChangePosition extends CharChanger {
 
         return new String(charArray);
 
-        //System.out.println(s1);
     }
 
 }
