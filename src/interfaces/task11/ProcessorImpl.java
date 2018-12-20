@@ -11,7 +11,7 @@ public class ProcessorImpl implements Processor {
 
     @Override
     public String name() {
-        return "ProcessorImpl";
+        return getClass().getSimpleName();
     }
 
     @Override
