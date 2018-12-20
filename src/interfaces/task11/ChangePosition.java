@@ -2,9 +2,9 @@ package interfaces.task11;
 
 import java.util.Arrays;
 
-public class ChangePosition extends CharChanger {
+ class ChangePosition {
 
-    public String process(Object input) {
+     String process(Object input) {
         return ChangePosition.lettersChanger((String)input);
     }
 
