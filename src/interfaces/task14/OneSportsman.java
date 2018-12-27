@@ -35,4 +35,10 @@ public class OneSportsman extends Sportsman implements AllRounder {
     public void openWaterSwim() {
 
     }
+
+
+    @Override
+    void goodInEverySport() {
+
+    }
 }
