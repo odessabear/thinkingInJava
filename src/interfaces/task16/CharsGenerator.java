@@ -1,22 +1,43 @@
 package interfaces.task16;
 
+import java.io.IOException;
+import java.nio.CharBuffer;
 import java.util.Random;
+import java.util.Scanner;
 
-public class CharsGenerator {
+public class CharsGenerator implements Readable {
     private static Random random = new Random();
-    private static final char[] symbols = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+    private int count;
 
-    public char generator() {
-//        char[] randomSymbols = new char[26];
-//        for (int i = 0; i < symbols.length; i++){
-//
-//            randomSymbols; randomSymbols[i] = symbols[random.nextInt(symbols.length)];
-//        }
-        return symbols[random.nextInt(symbols.length)];
-}
+    private CharsGenerator(int count) {
+        this.count = count;
+    }
+
+    private static char[] generator() {
+        char[] randomChars = new char[10];
+        for (int i = 0; i < randomChars.length; i++) {
+            char randomChar = (char) (random.nextInt(26) + 'a');
+            randomChars[i] = randomChar;
+        }
+        return randomChars;
+    }
+
+    @Override
+    public int read(CharBuffer cb) {
+        CharsGenerator cg = new CharsGenerator(count);
+        if (count-- == 0)
+            return -1;
+        for (int i = 0; i < 4; i++) {
+            cb.append(generator()[random.nextInt(generator().length)]);
+        }
+        cb.append(" ");
+        return 5;
+    }
 
     public static void main(String[] args) {
-        CharsGenerator cg = new CharsGenerator();
-        System.out.println(cg.generator());
+        Scanner scanner = new Scanner(new CharsGenerator(8));
+        while (scanner.hasNext()) {
+            System.out.println(scanner.next());
+        }
     }
 }
