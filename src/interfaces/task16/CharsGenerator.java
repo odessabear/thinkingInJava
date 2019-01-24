@@ -37,7 +37,7 @@ public class CharsGenerator implements Readable {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(new CharsGenerator(8));
         while (scanner.hasNext()) {
-            System.out.println(scanner.next());
+            System.out.print(scanner.next() + " ");
         }
     }
 }

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="interfaces: task 16 seems done">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/task17/Names.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/interfaces/task16/CharsGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/task16/CharsGenerator.java" afterDir="false" />
     </list>
@@ -16,25 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/task16/CharsGenerator.java">
+        <entry file="file://$PROJECT_DIR$/src/interfaces/task17/Names.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/nio/CharBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="277" column="14" selection-start-line="277" selection-start-column="4" selection-end-line="277" selection-end-column="14" />
+            <state relative-caret-position="135">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -46,8 +31,8 @@
       <list>
         <option value="Enum" />
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -57,7 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../JavaFromSimpleToComplex/src/collections/lists/ListRunner.java" />
         <option value="$PROJECT_DIR$/src/polymorphism/Excercise10.java" />
         <option value="$PROJECT_DIR$/src/polymorphism/rodents/Borning.java" />
         <option value="$PROJECT_DIR$/src/polymorphism/rodents/Dying.java" />
@@ -108,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/interfaces/task14/OneSportsman.java" />
         <option value="$PROJECT_DIR$/src/interfaces/task16/AdaptedCharsGenerator.java" />
         <option value="$PROJECT_DIR$/src/interfaces/task16/CharsGenerator.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/task17/Names.java" />
       </list>
     </option>
   </component>
@@ -122,28 +107,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="interfaces" type="462c0819:PsiDirectoryNode" />
               <item name="task16" type="462c0819:PsiDirectoryNode" />
@@ -152,13 +137,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548349074662" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548365396129" />
     <property name="last_opened_file_path" value="D:/Project/studentProgress" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -180,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CharsGenerator">
+  <component name="RunManager" selected="Application.NamesImpl">
     <configuration name="Adventure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interfaces.task12.Adventure" />
       <module name="ThinkingInJava" />
@@ -194,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.task11.ChangerMain" />
+    <configuration name="CharsGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.task16.CharsGenerator" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.task11.*" />
+          <option name="PATTERN" value="interfaces.task16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharsGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.task16.CharsGenerator" />
+    <configuration name="NamesImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.task17.NamesImpl" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.task16.*" />
+          <option name="PATTERN" value="interfaces.task17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,19 +232,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ChangerMain" />
       <item itemvalue="Application.Adventure" />
       <item itemvalue="Application.Test13" />
       <item itemvalue="Application.TestMain" />
       <item itemvalue="Application.CharsGenerator" />
+      <item itemvalue="Application.NamesImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NamesImpl" />
         <item itemvalue="Application.CharsGenerator" />
         <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.Adventure" />
         <item itemvalue="Application.Test13" />
-        <item itemvalue="Application.ChangerMain" />
       </list>
     </recent_temporary>
   </component>
@@ -355,13 +340,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154177000" />
+    <option name="totallyTimeSpent" value="155296000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1934" y="4" width="1658" height="1046" extended-state="0" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496871" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22078907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -370,7 +355,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32833335" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,7 +364,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32929516" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3238512" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3238512" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -413,13 +398,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="interfaces: task 16 seems done" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/polymorphism/rodents/Rat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/polymorphism/rodents/Mouse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -839,31 +817,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/nio/CharBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="277" column="14" selection-start-line="277" selection-start-column="4" selection-end-line="277" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/task16/AdaptedCharsGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/nio/CharBuffer.java" />
+    <entry file="file://$PROJECT_DIR$/src/interfaces/task16/AdaptedCharsGenerator.java" />
     <entry file="file://$PROJECT_DIR$/src/interfaces/task16/CharsGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="122">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
             <element signature="e#331#332#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/task17/Names.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
