@@ -6,7 +6,6 @@ import java.util.Random;
 
 public class Coin implements Game {
     private Random random = new Random();
-
     @Override
     public void throwing() {
         System.out.println("dropped side of the coin is ");
