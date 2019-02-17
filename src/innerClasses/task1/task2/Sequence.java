@@ -24,11 +24,11 @@ public class Sequence {
     private Object[] items;
     private int next = 0;
 
-    public Sequence(int size) {
+    private Sequence(int size) {
         items = new Object[size];
     }
 
-    public void add(Object x) {
+    private void add(Object x) {
         if (next < items.length) {
             items[next++] = x;
         }
@@ -54,7 +54,7 @@ public class Sequence {
             }
         }
     }
-    public Selector selector(){
+    private Selector selector(){
         return new SequenceSelector();
     }
 
