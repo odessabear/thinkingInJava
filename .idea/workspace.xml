@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/innerClasses/task1/task2/Sequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/innerClasses/task1/task3/Outer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerClasses/task1/task2/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerClasses/task1/task2/Sequence.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,21 +18,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/innerClasses/task1/task2/Sequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+            <state relative-caret-position="49">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
                 <element signature="e#636#637#0" expanded="true" />
                 <element signature="e#672#673#0" expanded="true" />
                 <element signature="e#778#779#0" expanded="true" />
                 <element signature="e#817#818#0" expanded="true" />
                 <element signature="e#984#985#0" expanded="true" />
                 <element signature="e#1028#1029#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/innerClasses/task1/task3/Outer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <folding>
+                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/polymorphism/rodents/Dying.java" />
         <option value="$PROJECT_DIR$/../JavaFromSimpleToComplex/src/collections/lists/ToDoList.java" />
         <option value="$PROJECT_DIR$/../JavaFromSimpleToComplex/src/collections/autoboxing/CollectionMain.java" />
         <option value="$PROJECT_DIR$/../JavaFromSimpleToComplex/src/collections/collectionsClass/CollectionsRunner.java" />
@@ -106,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/interfaces/task17/Names.java" />
         <option value="$PROJECT_DIR$/src/innerClasses/task1/task2/Strings.java" />
         <option value="$PROJECT_DIR$/src/innerClasses/task1/task2/Sequence.java" />
+        <option value="$PROJECT_DIR$/src/innerClasses/task1/task3/Outer.java" />
       </list>
     </option>
   </component>
@@ -143,7 +159,7 @@
               <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,6 +178,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="innerClasses.task1.task3" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Development\ThinkingInJava\src\patterns" />
     </key>
@@ -178,20 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sequence">
-    <configuration name="Adventure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.task12.Adventure" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interfaces.task12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Outer">
     <configuration name="CharsGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interfaces.task16.CharsGenerator" />
       <module name="ThinkingInJava" />
@@ -211,6 +217,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="interfaces.task17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="innerClasses.task1.task3.Outer" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="innerClasses.task1.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,19 +264,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Adventure" />
       <item itemvalue="Application.TestMain" />
       <item itemvalue="Application.CharsGenerator" />
       <item itemvalue="Application.NamesImpl" />
       <item itemvalue="Application.Sequence" />
+      <item itemvalue="Application.Outer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Outer" />
         <item itemvalue="Application.Sequence" />
         <item itemvalue="Application.NamesImpl" />
         <item itemvalue="Application.CharsGenerator" />
         <item itemvalue="Application.TestMain" />
-        <item itemvalue="Application.Adventure" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +305,7 @@
       <workItem from="1550422451004" duration="12000" />
       <workItem from="1550423283516" duration="711000" />
       <workItem from="1550424332192" duration="641000" />
-      <workItem from="1550425317625" duration="4290000" />
+      <workItem from="1550425317625" duration="6080000" />
     </task>
     <task id="LOCAL-00001" summary="polymorphism:worked with Music.java file">
       <created>1541006261655</created>
@@ -365,17 +384,24 @@
       <option name="project" value="LOCAL" />
       <updated>1548365413710</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="innerClasses - task2 done">
+      <created>1550437133612</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550437133612</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161504000" />
+    <option name="totallyTimeSpent" value="163294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25569043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25493172" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -392,8 +418,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32929516" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007587" side_tool="true" visible="true" weight="0.32833335" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3238512" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007587" side_tool="true" weight="0.32333332" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924126" weight="0.32333332" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -425,16 +451,10 @@
     <MESSAGE value="interfaces: task 14 done" />
     <MESSAGE value="interfaces: task 16 seems done" />
     <MESSAGE value="interfaces: task 17 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="interfaces: task 17 done" />
+    <MESSAGE value="innerClasses - task2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="innerClasses - task2 done" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/interfaces/subinterface/FastFood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/polymorphism/rodents/Rodent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -817,18 +837,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/innerClasses/task1/task2/Sequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+        <state relative-caret-position="49">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
             <element signature="e#636#637#0" expanded="true" />
             <element signature="e#672#673#0" expanded="true" />
             <element signature="e#778#779#0" expanded="true" />
             <element signature="e#817#818#0" expanded="true" />
             <element signature="e#984#985#0" expanded="true" />
             <element signature="e#1028#1029#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/task1/task3/Outer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
           </folding>
         </state>
       </provider>
