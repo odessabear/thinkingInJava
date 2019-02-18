@@ -5,7 +5,7 @@ import innerClasses.task6.pac1.FirstClass;
 
 public class SecondClass extends FirstClass {
 
-    public Name returnNameImplClass(){
+    private Name returnNameImplClass(){
         return this.new NameImpl();
     }
 
@@ -13,6 +13,9 @@ public class SecondClass extends FirstClass {
         FirstClass firstClass = new FirstClass();
         FirstClass.NameImpl ni = firstClass.new NameImpl();
         ni.callTheName();
+
+        SecondClass secondClass = new SecondClass();
+        secondClass.returnNameImplClass();
     }
 
 }
