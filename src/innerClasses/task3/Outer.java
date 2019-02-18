@@ -1,8 +1,8 @@
-package innerClasses.task1.task3;
+package innerClasses.task3;
 
 public class Outer {
     private String string;
-    public Outer(String s){
+    private Outer(String s){
         string = s;
     }
     private class Inner{

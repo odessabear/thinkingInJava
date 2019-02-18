@@ -1,4 +1,4 @@
-package innerClasses.task1.task2;
+package innerClasses.task4;
 
 interface Selector {
     boolean end();
@@ -11,7 +11,7 @@ interface Selector {
 class Strings {
     private String word;
 
-     Strings(String s) {
+    Strings(String s) {
         word = s;
     }
 
@@ -53,10 +53,17 @@ public class Sequence {
                 i++;
             }
         }
+
+        private Sequence outer(){
+            return Sequence.this;
+        }
     }
-    private Selector selector(){
+
+    private SequenceSelector selector2(){
         return new SequenceSelector();
     }
+
+
 
     public static void main(String[] args) {
 
@@ -64,14 +71,14 @@ public class Sequence {
         Strings s2 = new Strings("second");
         Strings s3 = new Strings("third");
         Sequence sequence1 = new Sequence(3);
-        sequence1.add(s1);
-        sequence1.add(s2);
-        sequence1.add(s3);
+        Sequence.SequenceSelector ss = sequence1.selector2();
+        ss.outer().add(s1);
+        ss.outer().add(s2);
+        ss.outer().add(s3);
 
-        Selector selector1 = sequence1.selector();
-        while (!selector1.end()){
-            System.out.print(selector1.current() +" ");
-            selector1.next();
+        while (!ss.end()){
+            System.out.print(ss.current() +" ");
+            ss.next();
         }
 
     }
