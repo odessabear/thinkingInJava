@@ -4,7 +4,7 @@ package innerClasses.task5;
 
     class InnerClass{
      InnerClass(){
-         System.out.println("It's an inner class");
+         System.out.println("It's an inner class!!!");
      }
     }
 }
