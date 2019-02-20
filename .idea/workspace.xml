@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/innerClasses/task7/Outer.java" afterDir="false" />
+    <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="innerClasses: tasks 7 and 8 done">
+      <change afterPath="$PROJECT_DIR$/src/innerClasses/task8/Outer8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerClasses/task7/Outer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerClasses/task7/Outer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/innerClasses/task6/pac1/FirstClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="e#163#164#0" expanded="true" />
                 <element signature="e#203#204#0" expanded="true" />
@@ -60,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/innerClasses/task5/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="67" lean-forward="true" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+              <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -68,8 +69,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/innerClasses/task7/Outer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+            <state relative-caret-position="153">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding>
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/innerClasses/task8/Outer8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#211#212#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/src/innerClasses/task5/OuterClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#95#96#0" expanded="true" />
                 <element signature="e#154#155#0" expanded="true" />
@@ -118,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/polymorphism/Sandwich.java" />
         <option value="$PROJECT_DIR$/src/interfaces/music/Music.java" />
         <option value="$PROJECT_DIR$/src/interfaces/music/Task9/Music.java" />
         <option value="$PROJECT_DIR$/src/interfaces/music/MusicAbstraction.java" />
@@ -168,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/innerClasses/task6/pac1/FirstClass.java" />
         <option value="$PROJECT_DIR$/src/innerClasses/task6/pac2/SecondClass.java" />
         <option value="$PROJECT_DIR$/src/innerClasses/task5/OuterClass.java" />
+        <option value="$PROJECT_DIR$/src/innerClasses/task8/Outer8.java" />
         <option value="$PROJECT_DIR$/src/innerClasses/task7/Outer.java" />
       </list>
     </option>
@@ -212,7 +229,7 @@
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="innerClasses" type="462c0819:PsiDirectoryNode" />
-              <item name="task7" type="462c0819:PsiDirectoryNode" />
+              <item name="task8" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Outer7">
+  <component name="RunManager" selected="Application.Outer8">
     <configuration name="Outer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="innerClasses.task7.Outer" />
       <module name="ThinkingInJava" />
@@ -274,12 +291,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="innerClasses.task6.pac2.SecondClass" />
+    <configuration name="Outer8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="innerClasses.task8.Outer8" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="innerClasses.task6.pac2.*" />
+          <option name="PATTERN" value="innerClasses.task8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,12 +304,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sequence (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="innerClasses.task4.Sequence" />
+    <configuration name="SecondClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="innerClasses.task6.pac2.SecondClass" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="innerClasses.task4.*" />
+          <option name="PATTERN" value="innerClasses.task6.pac2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,19 +331,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Sequence (1)" />
       <item itemvalue="Application.TestClass" />
       <item itemvalue="Application.SecondClass" />
       <item itemvalue="Application.Outer (1)" />
       <item itemvalue="Application.Outer7" />
+      <item itemvalue="Application.Outer8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Outer7" />
+        <item itemvalue="Application.Outer8" />
         <item itemvalue="Application.Outer (1)" />
+        <item itemvalue="Application.Outer7" />
         <item itemvalue="Application.SecondClass" />
         <item itemvalue="Application.TestClass" />
-        <item itemvalue="Application.Sequence (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +365,7 @@
       <workItem from="1547156494951" duration="719000" />
       <workItem from="1548272993735" duration="5738000" />
       <workItem from="1550507092472" duration="379000" />
-      <workItem from="1550508324444" duration="11659000" />
+      <workItem from="1550508324444" duration="15940000" />
     </task>
     <task id="LOCAL-00001" summary="polymorphism:worked with Music.java file">
       <created>1541006261655</created>
@@ -469,17 +486,24 @@
       <option name="project" value="LOCAL" />
       <updated>1550517275519</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="innerClasses: tasks 7 in progress">
+      <created>1550597794450</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1550597794450</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186080000" />
+    <option name="totallyTimeSpent" value="190361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1934" y="4" width="1658" height="1046" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25594494" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25594494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -488,7 +512,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32932165" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -497,7 +521,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32929516" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3238512" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3238512" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -533,10 +557,11 @@
     <MESSAGE value="innerClasses: task 1 done" />
     <MESSAGE value="innerClasses: tasks 4,5 and 6 done" />
     <MESSAGE value="innerClasses: tasks 4,5 and 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="innerClasses: tasks 4,5 and 6" />
+    <MESSAGE value="innerClasses: tasks 7 in progress" />
+    <MESSAGE value="innerClasses: tasks 7 and 8 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="innerClasses: tasks 7 and 8 done" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/interfaces/task11/ChangePosition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -905,10 +930,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerClasses/task6/Name.java">
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/task5/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="102">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -923,26 +948,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/task6/Name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/innerClasses/task6/pac1/FirstClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="e#163#164#0" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
             <element signature="e#169#170#0" expanded="true" />
             <element signature="e#209#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerClasses/task5/OuterClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -959,17 +980,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerClasses/task5/TestClass.java">
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/task5/OuterClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="67" lean-forward="true" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/task8/Outer8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/innerClasses/task7/Outer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
