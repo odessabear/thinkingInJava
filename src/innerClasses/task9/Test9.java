@@ -1,21 +1,23 @@
 package innerClasses.task9;
 
+import innerClasses.task10.Name;
+
 public class Test9 {
-    private class NumberImpl implements Number {
-        int number = 2019;
+    private Number showNumber()
+    {
+        return new Number() {
+            int number = 2019;
 
-        @Override
-        public void printNumber() {
-            System.out.println(number);
-        }
-    }
-
-    private Number showTheNumber() {
-        return new NumberImpl();
+            @Override
+            public void printNumber() {
+                System.out.println(number);
+            }
+        };
     }
 
     public static void main(String[] args) {
         Test9 test = new Test9();
-        test.showTheNumber().printNumber();
+        Number number = test.showNumber();
+        number.printNumber();
     }
 }
