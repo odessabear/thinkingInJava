@@ -15,7 +15,7 @@ public class ProcessorImpl implements Processor {
     }
 
     @Override
-    public String process(Object input) {
+    public Object process(Object input) {
         return changer.process(input);
     }
 }
