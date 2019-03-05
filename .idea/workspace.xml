@@ -5,34 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/innerClasses/task17/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/innerClasses/task17/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/innerClasses/task17/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/innerClasses/task17/GameFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/innerClasses/task17/Games.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/Exercise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/InheritanceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/inheritance/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/inheritance/StudentInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/AbstractFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/AbstractWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/Archer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/ConcreteFileWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/ConcreteXmlWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/ElfArcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/ElfMage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/ElfSquadronFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/ElfWarrior.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/IteratorClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/Mage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/Monster$Hand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/Monster$Head.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/Monster$Leg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/Monster$Part.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/Monster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/MonsterIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/patterns/Warrior.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,20 +24,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/innerClasses/task17/Dice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="340">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <folding>
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/src/innerClasses/task17/GameFactory.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/innerClasses/task17/Game.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/innerClasses/task17/Games.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="187">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/innerClasses/task17/Coin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+              <folding>
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,11 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/interfaces/task16/CharsGenerator.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/task17/Names.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/task18/Cycle.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/task18/CucleImpl.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/task18/CycleFactory.java" />
         <option value="$PROJECT_DIR$/src/interfaces/task18/Unicycle.java" />
         <option value="$PROJECT_DIR$/src/interfaces/task18/Bicycle.java" />
         <option value="$PROJECT_DIR$/src/interfaces/task18/Tricycle.java" />
@@ -133,6 +133,11 @@
         <option value="$PROJECT_DIR$/src/interfaces/task11/ChangePosition.java" />
         <option value="$PROJECT_DIR$/src/interfaces/task11/ChangerMain.java" />
         <option value="$PROJECT_DIR$/src/interfaces/task11/ProcessorImpl.java" />
+        <option value="$PROJECT_DIR$/src/innerClasses/task17/Dice.java" />
+        <option value="$PROJECT_DIR$/src/innerClasses/task17/Coin.java" />
+        <option value="$PROJECT_DIR$/src/innerClasses/task17/Games.java" />
+        <option value="$PROJECT_DIR$/src/innerClasses/task17/DicesFactory.java" />
+        <option value="$PROJECT_DIR$/src/innerClasses/task17/CoinFactory.java" />
       </list>
     </option>
   </component>
@@ -161,6 +166,25 @@
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="innerClasses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="innerClasses" type="462c0819:PsiDirectoryNode" />
+              <item name="task17" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -182,6 +206,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\ThinkingInJava\src\innerClasses\task17" />
       <recent name="D:\Development\ThinkingInJava\src\patterns" />
     </key>
   </component>
@@ -197,13 +222,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChangerMain">
+  <component name="RunManager" selected="Application.Games">
     <configuration name="ChangerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interfaces.task11.ChangerMain" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="interfaces.task11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Games" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="innerClasses.task17.Games" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="innerClasses.task17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,33 +288,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_Task10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="innerClasses.task10.Test_Task10" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="innerClasses.task10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Test9" />
-      <item itemvalue="Application.Test_Task10" />
       <item itemvalue="Application.Task12Main" />
       <item itemvalue="Application.SecondClass" />
       <item itemvalue="Application.ChangerMain" />
+      <item itemvalue="Application.Games" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Games" />
         <item itemvalue="Application.ChangerMain" />
         <item itemvalue="Application.SecondClass" />
         <item itemvalue="Application.Task12Main" />
         <item itemvalue="Application.Test9" />
-        <item itemvalue="Application.Test_Task10" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +324,7 @@
       <workItem from="1548272993735" duration="5738000" />
       <workItem from="1550507092472" duration="379000" />
       <workItem from="1550508324444" duration="17199000" />
-      <workItem from="1551114485277" duration="36999000" />
+      <workItem from="1551114485277" duration="38446000" />
     </task>
     <task id="LOCAL-00001" summary="polymorphism:worked with Music.java file">
       <created>1541006261655</created>
@@ -462,17 +487,24 @@
       <option name="project" value="LOCAL" />
       <updated>1551722127714</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary=".gitignore file has been added">
+      <created>1551803657724</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1551803657724</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228619000" />
+    <option name="totallyTimeSpent" value="230066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1934" y="4" width="1658" height="1046" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25907385" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25907385" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -480,7 +512,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993742" weight="0.32932165" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -488,7 +520,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4993742" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4993742" visible="true" weight="0.32822758" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4993742" weight="0.32822758" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006258" side_tool="true" weight="0.32822758" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3238512" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -568,73 +600,10 @@
     <MESSAGE value="innerClasses: tasks 10, 11 and 12 done" />
     <MESSAGE value="innerClasses: task 13 done" />
     <MESSAGE value="returned changes in the interfaces.task11" />
-    <option name="LAST_COMMIT_MESSAGE" value="returned changes in the interfaces.task11" />
+    <MESSAGE value=".gitignore file has been added" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore file has been added" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/interfaces/task18/Unicycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/task18/CycleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/task18/Cycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/task16/CharsGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="235" column="69" lean-forward="true" selection-start-line="235" selection-start-column="69" selection-end-line="235" selection-end-column="69" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerClasses/task1/Outer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerClasses/task2/Sequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/innerClasses/task5.java" />
     <entry file="file://$PROJECT_DIR$/src/innerClasses/task4/Sequence.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -877,13 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/task19/Games.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces/task11/CharChanger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -979,13 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/innerClasses/task13/SecondClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -993,10 +948,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/task17/Game.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/task17/Dice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/task17/Coin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/task17/DicesFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-start-column="2" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/task17/CoinFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-start-column="2" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/task17/GameFactory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/task19/Games.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerClasses/task17/Games.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
