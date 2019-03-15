@@ -46,6 +46,8 @@ public class Sequence {
         return new SequenceSelector();
     }
 
+    private Selector reverseSelector(){return new SequenceSelector();}
+
     public static void main(String[] args) {
         Sequence sequence = new Sequence(10);
         for (int i = 0; i < 10; i++) {
@@ -55,6 +57,16 @@ public class Sequence {
         while (!selector.end()) {
             System.out.println(selector.current() + " ");
             selector.next();
+        }
+        System.out.println();
+        Sequence sequence1 = new Sequence(10);
+        for (int i = 10;i > 0;i--){
+            sequence1.add(Integer.toString(i));
+        }
+        Selector selector1 = sequence1.reverseSelector();
+        while (!selector1.end()){
+            System.out.println(selector1.current());
+            selector1.next();
         }
     }
 }
