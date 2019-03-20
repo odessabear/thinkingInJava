@@ -42,7 +42,7 @@ public class A {
         b.getMethods();
         System.out.println();
         System.out.println();
-        b.setNull(3);
+        b.setNull(2);
         b.getMethods();
     }
 }
