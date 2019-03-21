@@ -4,15 +4,13 @@ public class GreenhouseControls extends Controller {
     private boolean light = false;
 
     public class LightOn extends Event {
-
         public LightOn(long delayTime) {
             super(delayTime);
         }
 
-        @Override
         public void action() {
-            // Put hardware control code here to
-            // physically turn off the light.
+// Put hardware control code here to
+// physically turn on the light.
             light = true;
         }
 
@@ -26,9 +24,9 @@ public class GreenhouseControls extends Controller {
             super(delayTime);
         }
 
-        @Override
         public void action() {
-            //Put hardware control code here.
+// Put hardware control code here to
+// physically turn off the light.
             light = false;
         }
 
@@ -44,9 +42,8 @@ public class GreenhouseControls extends Controller {
             super(delayTime);
         }
 
-        @Override
         public void action() {
-            //Put hardware control code here.
+// Put hardware control code here.
             water = true;
         }
 
@@ -60,14 +57,13 @@ public class GreenhouseControls extends Controller {
             super(delayTime);
         }
 
-        @Override
         public void action() {
-            // Put hardware control code here.
+// Put hardware control code here.
             water = false;
         }
 
-        public String toString(){
-            return "Greenhouse water is of";
+        public String toString() {
+            return "Greenhouse water is off";
         }
     }
 
@@ -78,9 +74,8 @@ public class GreenhouseControls extends Controller {
             super(delayTime);
         }
 
-        @Override
         public void action() {
-            // Put hardware control code here.
+// Put hardware control code here.
             thermostat = "Night";
         }
 
@@ -90,14 +85,12 @@ public class GreenhouseControls extends Controller {
     }
 
     public class ThermostatDay extends Event {
-
         public ThermostatDay(long delayTime) {
             super(delayTime);
         }
 
-        @Override
         public void action() {
-            //Put hardware control code here.
+// Put hardware control code here.
             thermostat = "Day";
         }
 
@@ -106,18 +99,48 @@ public class GreenhouseControls extends Controller {
         }
     }
 
-    public class Bell extends Event {
-        public Bell(long delayTime) {
+    private boolean airing = false;
+
+    public class AiringOn extends Event {
+        public AiringOn(long delayTime) {
             super(delayTime);
         }
 
         @Override
         public void action() {
+            airing = true;
+        }
+
+        public String toString(){
+            return "airing is active";
+        }
+    }
+
+    public class AiringOff extends Event{
+        public AiringOff(long delayTime){
+            super(delayTime);
+        }
+        public void action(){
+            airing = false;
+        }
+        public String toString(){
+            return "airing is off";
+        }
+    }
+
+    // An example of an action() that inserts a
+// new one of itself into the event list:
+    public class Bell extends Event {
+        public Bell(long delayTime) {
+            super(delayTime);
+        }
+
+        public void action() {
             addEvent(new Bell(delayTime));
         }
 
         public String toString() {
-            return "Bing";
+            return "Bing!";
         }
     }
 
@@ -127,18 +150,16 @@ public class GreenhouseControls extends Controller {
         public Restart(long delayTime, Event[] eventList) {
             super(delayTime);
             this.eventList = eventList;
-            for (Event e : eventList) {
+            for (Event e : eventList)
                 addEvent(e);
-            }
         }
 
-        @Override
         public void action() {
             for (Event e : eventList) {
-                e.start();
+                e.start(); // Rerun each event
                 addEvent(e);
             }
-            start();
+            start(); // Rerun this Event
             addEvent(this);
         }
 
@@ -151,8 +172,6 @@ public class GreenhouseControls extends Controller {
         public Terminate(long delayTime) {
             super(delayTime);
         }
-
-        @Override
 
         public void action() {
             System.exit(0);
