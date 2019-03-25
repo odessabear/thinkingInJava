@@ -2,25 +2,29 @@ package innerClasses.controller;
 
 public class GreenhouseController {
     public static void main(String[] args) {
-        GreenhouseControls gc = new GreenhouseControls();
+        //GreenhouseControls gc = new GreenhouseControls();
+        WettingClass wc = new WettingClass();
 // Instead of hard-wiring, you could parse
 // configuration information from a text file here:
-        gc.addEvent(gc.new Bell(900));
+        wc.addEvent(wc.new Bell(900));
         Event[] eventList = {
-                gc.new ThermostatNight(0),
-                gc.new LightOn(200),
-                gc.new LightOff(400),
-                gc.new WaterOn(600),
-                gc.new WaterOff(800),
-                gc.new AiringOn(1000),
-                gc.new AiringOff(1200),
-                gc.new ThermostatDay(1400)
+                wc.new ThermostatNight(0),
+                wc.new LightOn(200),
+                wc.new LightOff(400),
+                wc.new WaterOn(600),
+                wc.new WaterOff(800),
+                wc.new AiringOn(1000),
+                wc.new AiringOff(1200),
+                wc.new ThermostatDay(1400),
+                wc.new WettingOn(1500),
+                wc.new WettingOn(1600)
+
         };
-        gc.addEvent(gc.new Restart(2000, eventList));
+        wc.addEvent(wc.new Restart(2000, eventList));
         if (args.length == 1)
-            gc.addEvent(
+            wc.addEvent(
                     new GreenhouseControls.Terminate(
                             new Integer(args[0])));
-        gc.run();
+        wc.run();
     }
 }
