@@ -24,7 +24,7 @@ public class CharsGenerator implements Readable {
 
     @Override
     public int read(CharBuffer cb) {
-        CharsGenerator cg = new CharsGenerator(count);
+     //   CharsGenerator cg = new CharsGenerator(count);
         if (count-- == 0)
             return -1;
         for (int i = 0; i < 4; i++) {
