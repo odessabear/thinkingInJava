@@ -36,7 +36,7 @@ public class NamesGenerator {
         }
     }
 
-    private Collection fillCollection(Collection<String> list, int count) {
+    private Collection fillCollection(Collection<String> list,int count) {
         for (int i = 0; i < count; i++) {
             list.add(next());
         }
