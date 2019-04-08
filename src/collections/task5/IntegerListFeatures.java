@@ -1,8 +1,6 @@
 package collections.task5;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class IntegerListFeatures {
     private static List<Integer> listOfRandInteger(int length, int n) {
@@ -32,5 +30,36 @@ public class IntegerListFeatures {
         System.out.println("9: " + integerList);
         List<Integer> sub = integerList.subList(1,4);
         System.out.println("Sublist is " + sub);
+        System.out.println("10: " + integerList.containsAll(sub));
+        Collections.sort(sub);
+        System.out.println("After sorting " + sub);
+        System.out.println("11: " + integerList.containsAll(sub));
+        Collections.shuffle(sub,random);
+        System.out.println("After shuffling " + sub);
+        System.out.println("12: " + integerList.containsAll(sub));
+        List<Integer> copy = new ArrayList<>(integerList);
+        sub = Arrays.asList(integerList.get(1),integerList.get(4));
+        System.out.println("Sub is " + sub);
+        copy.retainAll(sub);
+        System.out.println("13: " + copy);
+        copy = new ArrayList<>(integerList);
+        copy.remove(2);
+        System.out.println("14: " + copy);
+        copy.retainAll(sub);
+        System.out.println("15: " + copy);
+        copy.set(1,random.nextInt(10));
+        System.out.println("16: " + copy);
+        copy.addAll(2,sub);
+        System.out.println("17: " + copy);
+        System.out.println(integerList.isEmpty());
+        integerList.clear();
+        System.out.println("19: " + integerList);
+        System.out.println("20: " + integerList.isEmpty());
+        integerList.addAll(listOfRandInteger(4,10));
+        System.out.println("21: " + integerList);
+        Object[] o = integerList.toArray();
+        System.out.println("22: " + o[3]);
+        Integer[] pa = integerList.toArray(new Integer[0]);
+        System.out.println("23: " + pa[3]);
     }
 }
