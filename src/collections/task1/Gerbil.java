@@ -2,16 +2,20 @@ package collections.task1;
 
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Gerbil {
     private int gerbilNumber;
 
-    public Gerbil(int i) {
+    private Gerbil(int i) {
         gerbilNumber = i;
     }
 
-    public void hop() {
-        System.out.println("gerbilNumber is " + gerbilNumber);
+    private static void hop(Iterator<Gerbil> iterator) {
+        while (iterator.hasNext()){
+        Gerbil gerbil = iterator.next();
+        System.out.println(gerbil);
+        System.out.println();}
     }
 
     public static void main(String[] args) {
@@ -19,9 +23,9 @@ public class Gerbil {
         for (int i = 0; i < 5; i++) {
             gerbilArrayList.add(new Gerbil(i));
         }
-        for (Gerbil g: gerbilArrayList) {
-            g.hop();
+        hop(gerbilArrayList.iterator());
         }
+
     }
 
-}
+
