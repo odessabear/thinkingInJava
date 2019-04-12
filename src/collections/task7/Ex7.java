@@ -35,5 +35,17 @@ public class Ex7 {
             System.out.print(e.getId() + " ");
         }
 
+        System.out.println();
+        System.out.println();
+
+        List<Integer> integerList = new ArrayList<>(10);
+        for (int i = 0; i < 10; i++) {
+            integerList.add(i);
+        }
+        System.out.println(integerList);
+        List<Integer> subList = integerList.subList(3,7);
+
+        integerList.removeAll(subList);
+        System.out.println(integerList);
     }
 }

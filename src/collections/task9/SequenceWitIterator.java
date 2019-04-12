@@ -7,6 +7,7 @@ import java.util.List;
 public class SequenceWitIterator {
     private List<Object> items;
 
+
     private SequenceWitIterator(int size) {
         items = new ArrayList<>(size);
     }
@@ -15,23 +16,19 @@ public class SequenceWitIterator {
         items.add(x);
     }
 
-    private class SequenceSelector {
-        private int i;
-        public int end() {
-            return items.size();
-        }
-
-        public Object current() {
-            return items.get(i);
-        }
-    }
-
-    private SequenceSelector selector(){
-        return new SequenceSelector();
+    private Iterator iterator() {
+        return items.iterator();
     }
 
     public static void main(String[] args) {
         SequenceWitIterator swi = new SequenceWitIterator(10);
-
+        for (int i = 0; i < 10; i++) {
+            swi.addValue(i);
+        }
+        Iterator iterator = swi.iterator();
+        while (iterator.hasNext()) {
+            System.out.print(iterator.next() + " ");
+        }
     }
+
 }
