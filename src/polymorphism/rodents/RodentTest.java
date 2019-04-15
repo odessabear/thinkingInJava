@@ -1,5 +1,7 @@
 package polymorphism.rodents;
 
+import java.util.*;
+
 public class RodentTest {
 
 
@@ -13,8 +15,17 @@ public class RodentTest {
                 new Hamster(shared)
         };
 
-        for (Rodent rodent : rodents) {
-            rodent.toString();
+//        for (Rodent rodent : rodents) {
+//            rodent.toString();
+//        }
+
+
+        List<Rodent> rodentList = Arrays.asList(rodents);
+        Iterator<Rodent> it = rodentList.iterator();
+
+        while (it.hasNext()){
+            Rodent rodent = it.next();
+            System.out.println(rodent.toString());
         }
     }
 }
