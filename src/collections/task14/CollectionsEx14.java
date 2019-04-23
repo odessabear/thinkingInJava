@@ -6,9 +6,9 @@ import java.util.ListIterator;
 import java.util.Random;
 
 public class CollectionsEx14 {
-    static void addMiddle(LinkedList<Integer> l) {
+    private static void addMiddle(List<Integer> l) {
 Random random = new Random();
-        for(Integer i = 0; i< 8;i++) {
+        for(int i = 0; i< 8;i++) {
             ListIterator<Integer> it =
                     l.listIterator((l.size())/2);
             it.add(random.nextInt(10));
@@ -16,7 +16,7 @@ Random random = new Random();
         }
     }
     public static void main(String[] args) {
-        LinkedList<Integer> li = new LinkedList<>();
+        List<Integer> li = new LinkedList<>();
 
         CollectionsEx14.addMiddle(li);
     }
