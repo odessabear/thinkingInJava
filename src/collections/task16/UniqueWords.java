@@ -2,19 +2,45 @@ package collections.task16;
 
 import collections.codeFromBook.TextFile;
 
-import java.io.File;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class UniqueWords {
-    public static void main(String[] args) {
-        Set<String> words = new TreeSet<>(new TextFile("C:\\Users\\alexander.mikhailov\\IdeaProjects\\thinkingInJava\\src\\HelloClass.java", "\\W+"));
+
+    private static void vowelCounter(Set<String> st) {
+        Set<Character> vowels = new TreeSet<>();
+        Collections.addAll(vowels,
+                'A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u');
+        int allVowels = 0;
+        for (String s : st) {
+            int count = 0;
+            for (Character v : s.toCharArray()) {
+                if (vowels.contains(v)) {
+                    count++;
+                    allVowels++;
+                }
+            }
+            System.out.print(s + ": " + count + ", ");
+        }
+        System.out.println();
+        System.out.print("Total vowels: " + allVowels);
+    }
+
+
+        public static void main(String[] args) {
+
+
+        Set<String> words = new TreeSet<>(new TextFile("HelloClass.java", "\\W+"));
+
 
         System.out.println("****************************************************");
         System.out.println();
         System.out.println(words);
         System.out.println();
         System.out.println("*****************************************************");
+        System.out.println();
+
+
+        vowelCounter(words);
 
     }
 }
