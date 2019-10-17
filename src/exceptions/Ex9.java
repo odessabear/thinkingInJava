@@ -22,19 +22,19 @@ class Exception3rd extends Exception {
 public class Ex9 {
     static void fooBar(int x) throws Exception1st, Exception2nd, Exception3rd {
         if (x < 0) throw new Exception1st("x < 0");
-        if (x == 0) throw new Exception1st("x == 0");
-        if (x > 0) throw new Exception1st("x > 0");
+        if (x == 0) throw new Exception2nd("x == 0");
+        if (x <= 1) throw new Exception3rd("x > 0");
 
     }
 
     public static void main(String[] args) {
-        try {
-            fooBar(-3);
-            fooBar(0);
-            fooBar(8);
-        } catch (Exception e) {
-            System.out.println("caught all exceptions ");
-            e.printStackTrace();
+        for (int i = -1; i <= 1; i++) {
+            try {
+                fooBar(i);
+            } catch (Exception e) {
+                System.out.println("caught all exceptions ");
+                e.printStackTrace();
+            }
         }
     }
 

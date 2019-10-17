@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="collections:some code from the book.TextFile.java">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/Ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/Ex3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/Ex4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/Ex5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/Ex8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/Ex9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ex7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/Ex9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/Ex9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +181,7 @@
       <workItem from="1556658103711" duration="984000" />
       <workItem from="1556823867186" duration="5828000" />
       <workItem from="1560284780202" duration="68000" />
-      <workItem from="1571292301951" duration="8490000" />
+      <workItem from="1571292301951" duration="9011000" />
     </task>
     <task id="LOCAL-00001" summary="polymorphism:worked with Music.java file">
       <created>1541006261655</created>
@@ -526,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556832711901</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="work with Exception Handling">
+      <created>1571329449244</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1571329449244</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TodoView">
@@ -579,7 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="returned changes in the interfaces.task11" />
     <MESSAGE value=".gitignore file has been added" />
     <MESSAGE value="task 15(17) was done" />
     <MESSAGE value="tasks  16 and 17 were done" />
@@ -604,7 +603,8 @@
     <MESSAGE value="collections:tasks 13 and 14 were done version3" />
     <MESSAGE value="collections:some code from the book.Stack's realisation" />
     <MESSAGE value="collections:task 15 was done" />
-    <option name="LAST_COMMIT_MESSAGE" value="collections:task 15 was done" />
+    <MESSAGE value="work with Exception Handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="work with Exception Handling" />
   </component>
   <component name="WindowStateProjectService">
     <state x="811" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1571292356515">
@@ -619,25 +619,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571292348238" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1571329338775">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1571329949512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571329338775" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1571329338774">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571329949512" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1571329949512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571329338774" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1571329338774">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571329949512" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1571329949511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571329338774" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1571329338774">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571329949511" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1571329949512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571329338774" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571329949512" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1571329452361">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571329452361" />
     <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1571292304001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571292304001" />
+    <state x="690" y="275" key="extract.method.dialog" timestamp="1571329688785">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="extract.method.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571329688785" />
   </component>
 </project>
