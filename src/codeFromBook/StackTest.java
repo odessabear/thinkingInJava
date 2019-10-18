@@ -1,4 +1,4 @@
-package collections.codeFromBook;
+package codeFromBook;
 
 public class StackTest {
     public static void main(String[] args) {

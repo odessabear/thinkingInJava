@@ -1,4 +1,4 @@
-package collections.codeFromBook;
+package codeFromBook;
 
 import pets.*;
 

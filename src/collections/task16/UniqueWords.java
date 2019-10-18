@@ -1,6 +1,6 @@
 package collections.task16;
 
-import collections.codeFromBook.TextFile;
+import codeFromBook.TextFile;
 
 import java.util.*;
 

@@ -1,9 +1,8 @@
-package collections.codeFromBook;
+package codeFromBook;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.TreeSet;
 
 public class TextFile extends ArrayList<String> {
     // Read a file as a single string:

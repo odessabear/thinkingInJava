@@ -1,9 +1,6 @@
 package collections.task15;
 
-import collections.codeFromBook.Stack;
-
-import java.util.LinkedList;
-import java.util.ListIterator;
+import codeFromBook.Stack;
 
 public class ReferenceWithStack {
     public static void main(String[] args) {
