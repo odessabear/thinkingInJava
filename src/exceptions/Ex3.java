@@ -9,8 +9,8 @@ public class Ex3 {
         try{
             System.out.println(array[4]);
         }catch (IndexOutOfBoundsException e){
-            System.err.println("Caught IndexOutOfBoundsException " );
-            e.printStackTrace();
+            System.out.println("Caught IndexOutOfBoundsException " );
+            throw new RuntimeException(e);
         }
     }
 }

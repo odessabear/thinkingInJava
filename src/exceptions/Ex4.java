@@ -1,6 +1,6 @@
 package exceptions;
 
-class Ex4Exception extends Exception{
+class Ex4Exception extends RuntimeException{
 
     public Ex4Exception(String message){
         super(message);
@@ -15,11 +15,15 @@ public class Ex4 {
     }
 
     public static void main(String[] args) {
-        try {
-            f();
-        } catch (Ex4Exception e) {
-            System.err.println("Caught Ex4Exception");
-            e.printStackTrace();
-        }
+//        try {
+//            f();
+//        } catch (Ex4Exception e) {
+//            System.err.println("Caught Ex4Exception");
+//            e.printStackTrace();
+//        }
+
+
+  // if we extend RuntimeException
+        f();
     }
 }
