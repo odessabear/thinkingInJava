@@ -28,7 +28,7 @@ public class Ex25 {
         try {
             a.f();
         }	catch(LevelThreeException e3) {
-            System.out.println("Caught e3");
+            System.out.println("Caught e3 in the Level1");
         }	catch(LevelTwoException e2) {
             System.out.println("Caught e2");
         }	catch(LevelOneException e1) {

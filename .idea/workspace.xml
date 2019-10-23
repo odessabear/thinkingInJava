@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="collections:some code from the book.TextFile.java">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/Ex21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/Ex25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/FailingConstructor23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/Human30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/MainException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/Conversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/Ex6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/InfiniteRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/Receipt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/Turtle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/Ex3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/Ex3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/Ex4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/Ex4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/Ex25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/Ex25.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +71,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Human30">
-    <configuration name="Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.Ex3" />
+  <component name="RunManager" selected="Application.Ex6">
+    <configuration name="Conversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.Conversion" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.Ex4" />
+    <configuration name="Ex6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.Ex6" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Human30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.Human30" />
+    <configuration name="InfiniteRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.InfiniteRecursion" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.MainException" />
+    <configuration name="Receipt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.Receipt" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mainexception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.Mainexception" />
+    <configuration name="Turtle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.Turtle" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,19 +138,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Mainexception" />
-      <item itemvalue="Application.MainException" />
-      <item itemvalue="Application.Ex3" />
-      <item itemvalue="Application.Ex4" />
-      <item itemvalue="Application.Human30" />
+      <item itemvalue="Application.InfiniteRecursion" />
+      <item itemvalue="Application.Turtle" />
+      <item itemvalue="Application.Receipt" />
+      <item itemvalue="Application.Conversion" />
+      <item itemvalue="Application.Ex6" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Human30" />
-        <item itemvalue="Application.Ex4" />
-        <item itemvalue="Application.Ex3" />
-        <item itemvalue="Application.MainException" />
-        <item itemvalue="Application.Mainexception" />
+        <item itemvalue="Application.Ex6" />
+        <item itemvalue="Application.Conversion" />
+        <item itemvalue="Application.Receipt" />
+        <item itemvalue="Application.InfiniteRecursion" />
+        <item itemvalue="Application.Turtle" />
       </list>
     </recent_temporary>
   </component>
@@ -188,14 +187,7 @@
       <workItem from="1556658103711" duration="984000" />
       <workItem from="1556823867186" duration="5828000" />
       <workItem from="1560284780202" duration="68000" />
-      <workItem from="1571292301951" duration="21840000" />
-    </task>
-    <task id="LOCAL-00003" summary="counting Task">
-      <created>1542301806491</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1542301806491</updated>
+      <workItem from="1571292301951" duration="28517000" />
     </task>
     <task id="LOCAL-00004" summary="interface tasks 8 and 9">
       <created>1543513204265</created>
@@ -533,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571414046781</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="work with Exception Handling finished">
+      <created>1571673126754</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1571673126754</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView">
@@ -586,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tasks  16 and 17 were done" />
     <MESSAGE value="task 22 in the process" />
     <MESSAGE value="task 23 done" />
     <MESSAGE value="program Callbaks.java from the book" />
@@ -611,7 +609,8 @@
     <MESSAGE value="work with Exception Handling" />
     <MESSAGE value="work with Exception Handling part1" />
     <MESSAGE value="work with Exception Handling part2" />
-    <option name="LAST_COMMIT_MESSAGE" value="work with Exception Handling part2" />
+    <MESSAGE value="work with Exception Handling finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="work with Exception Handling finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="811" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1571292356515">
@@ -626,26 +625,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571292348238" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1571673082565">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1571843968942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571673082565" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1571673082564">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571843968942" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1571843968942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571673082564" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1571673082564">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571843968942" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1571843968942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571673082564" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1571673082564">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571843968942" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1571843968942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571673082564" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1571414048535">
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571843968942" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1571673128532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571414048535" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571673128532" />
     <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1571292304001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
