@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="collections:some code from the book.TextFile.java">
-      <change afterPath="$PROJECT_DIR$/src/strings/Conversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/Ex6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/InfiniteRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/Receipt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/Turtle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/Splitting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/Ex25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/Ex25.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex6">
+  <component name="RunManager" selected="Application.Splitting">
     <configuration name="Conversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.Conversion" />
       <module name="ThinkingInJava" />
@@ -124,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Turtle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Turtle" />
+    <configuration name="Splitting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.Splitting" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -139,18 +134,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.InfiniteRecursion" />
-      <item itemvalue="Application.Turtle" />
       <item itemvalue="Application.Receipt" />
       <item itemvalue="Application.Conversion" />
       <item itemvalue="Application.Ex6" />
+      <item itemvalue="Application.Splitting" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Splitting" />
         <item itemvalue="Application.Ex6" />
         <item itemvalue="Application.Conversion" />
         <item itemvalue="Application.Receipt" />
         <item itemvalue="Application.InfiniteRecursion" />
-        <item itemvalue="Application.Turtle" />
       </list>
     </recent_temporary>
   </component>
@@ -187,14 +182,7 @@
       <workItem from="1556658103711" duration="984000" />
       <workItem from="1556823867186" duration="5828000" />
       <workItem from="1560284780202" duration="68000" />
-      <workItem from="1571292301951" duration="28517000" />
-    </task>
-    <task id="LOCAL-00004" summary="interface tasks 8 and 9">
-      <created>1543513204265</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1543513204265</updated>
+      <workItem from="1571292301951" duration="33775000" />
     </task>
     <task id="LOCAL-00005" summary="interfaces task 11">
       <created>1543596689935</created>
@@ -532,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571673126754</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="work with strings">
+      <created>1571844012113</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1571844012113</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView">
@@ -585,7 +580,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task 22 in the process" />
     <MESSAGE value="task 23 done" />
     <MESSAGE value="program Callbaks.java from the book" />
     <MESSAGE value="inner classes and control frameworks from the book" />
@@ -610,7 +604,8 @@
     <MESSAGE value="work with Exception Handling part1" />
     <MESSAGE value="work with Exception Handling part2" />
     <MESSAGE value="work with Exception Handling finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="work with Exception Handling finished" />
+    <MESSAGE value="work with strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="work with strings" />
   </component>
   <component name="WindowStateProjectService">
     <state x="811" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1571292356515">
@@ -625,26 +620,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571292348238" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1571843968942">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1572016298540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571843968942" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1571843968942">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1572016298540" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1572016298539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571843968942" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1571843968942">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1572016298539" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1572016298539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571843968942" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1571843968942">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1572016298539" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1572016298539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571843968942" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1571673128532">
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1572016298539" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1571844013729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571673128532" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571844013729" />
     <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1571292304001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -653,5 +648,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="extract.method.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571329688785" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1571985572352">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571985572352" />
   </component>
 </project>
