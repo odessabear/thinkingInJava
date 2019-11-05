@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="collections:some code from the book.TextFile.java">
-      <change afterPath="$PROJECT_DIR$/src/strings/Ex11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/TestRegularExpression.java" afterDir="false" />
+    <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/strings/Groups12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/SplitDemo14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/StartEnd13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,20 +29,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1SJqy7WyzKlK4DvQOpBYzJ1bwwY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1658" />
+    <option name="height" value="1046" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549872770614" />
-    <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/exceptions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,22 +56,21 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pets" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\alexander.mikhailov\IdeaProjects\thinkingInJava\src\exceptions" />
       <recent name="D:\Development\ThinkingInJava\src\collections\task9" />
       <recent name="D:\Development\ThinkingInJava\src\innerClasses\task17" />
       <recent name="D:\Development\ThinkingInJava\src\patterns" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex11">
-    <configuration name="Conversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Conversion" />
+  <component name="RunManager" selected="Application.SplitDemo14">
+    <configuration name="Groups12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.Groups12" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +82,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Ex11" />
+    <configuration name="ReferenceWithStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.task15.ReferenceWithStack" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.task15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SplitDemo14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.SplitDemo14" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Ex6" />
+    <configuration name="StartEnd13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.StartEnd13" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -108,25 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Splitting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Splitting" />
+    <configuration name="UniqueWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.task16.UniqueWords" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRegularExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.TestRegularExpression" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="collections.task16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,21 +135,28 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Conversion" />
-      <item itemvalue="Application.Ex6" />
-      <item itemvalue="Application.Splitting" />
-      <item itemvalue="Application.Ex11" />
-      <item itemvalue="Application.TestRegularExpression" />
+      <item itemvalue="Application.ReferenceWithStack" />
+      <item itemvalue="Application.UniqueWords" />
+      <item itemvalue="Application.Groups12" />
+      <item itemvalue="Application.StartEnd13" />
+      <item itemvalue="Application.SplitDemo14" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex11" />
-        <item itemvalue="Application.TestRegularExpression" />
-        <item itemvalue="Application.Splitting" />
-        <item itemvalue="Application.Ex6" />
-        <item itemvalue="Application.Conversion" />
+        <item itemvalue="Application.SplitDemo14" />
+        <item itemvalue="Application.StartEnd13" />
+        <item itemvalue="Application.Groups12" />
+        <item itemvalue="Application.UniqueWords" />
+        <item itemvalue="Application.ReferenceWithStack" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView />
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -184,7 +191,41 @@
       <workItem from="1556658103711" duration="984000" />
       <workItem from="1556823867186" duration="5828000" />
       <workItem from="1560284780202" duration="68000" />
-      <workItem from="1571292301951" duration="38420000" />
+    </task>
+    <task id="LOCAL-00001" summary="polymorphism:worked with Music.java file">
+      <created>1541006261655</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541006261655</updated>
+    </task>
+    <task id="LOCAL-00002" summary="polymorphism:worked with Music.java file/Added new subclass and random output of instruments.">
+      <created>1541171520284</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541171520284</updated>
+    </task>
+    <task id="LOCAL-00003" summary="counting Task">
+      <created>1542301806491</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542301806491</updated>
+    </task>
+    <task id="LOCAL-00004" summary="interface tasks 8 and 9">
+      <created>1543513204265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543513204265</updated>
+    </task>
+    <task id="LOCAL-00005" summary="interfaces task 11">
+      <created>1543596689935</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543596689935</updated>
     </task>
     <task id="LOCAL-00006" summary="interfaces task 11 returned string from method">
       <created>1544048327978</created>
@@ -487,49 +528,7 @@
       <option name="project" value="LOCAL" />
       <updated>1556832711901</updated>
     </task>
-    <task id="LOCAL-00049" summary="work with Exception Handling">
-      <created>1571329449244</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1571329449244</updated>
-    </task>
-    <task id="LOCAL-00050" summary="work with Exception Handling part1">
-      <created>1571330005638</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1571330005639</updated>
-    </task>
-    <task id="LOCAL-00051" summary="work with Exception Handling part2">
-      <created>1571414046781</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1571414046781</updated>
-    </task>
-    <task id="LOCAL-00052" summary="work with Exception Handling finished">
-      <created>1571673126754</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1571673126754</updated>
-    </task>
-    <task id="LOCAL-00053" summary="work with strings">
-      <created>1571844012113</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1571844012113</updated>
-    </task>
-    <task id="LOCAL-00054" summary="work with regular expressions">
-      <created>1572016316075</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1572016316075</updated>
-    </task>
-    <option name="localTasksCounter" value="55" />
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView">
@@ -582,6 +581,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="returned changes in the interfaces.task11" />
+    <MESSAGE value=".gitignore file has been added" />
+    <MESSAGE value="task 15(17) was done" />
+    <MESSAGE value="tasks  16 and 17 were done" />
+    <MESSAGE value="task 22 in the process" />
+    <MESSAGE value="task 23 done" />
     <MESSAGE value="program Callbaks.java from the book" />
     <MESSAGE value="inner classes and control frameworks from the book" />
     <MESSAGE value="task 24 done" />
@@ -601,58 +606,118 @@
     <MESSAGE value="collections:tasks 13 and 14 were done version3" />
     <MESSAGE value="collections:some code from the book.Stack's realisation" />
     <MESSAGE value="collections:task 15 was done" />
-    <MESSAGE value="work with Exception Handling" />
-    <MESSAGE value="work with Exception Handling part1" />
-    <MESSAGE value="work with Exception Handling part2" />
-    <MESSAGE value="work with Exception Handling finished" />
-    <MESSAGE value="work with strings" />
-    <MESSAGE value="work with regular expressions" />
-    <option name="LAST_COMMIT_MESSAGE" value="work with regular expressions" />
+    <option name="LAST_COMMIT_MESSAGE" value="collections:task 15 was done" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="811" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1571292356515">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="526" y="279" width="304" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1572984679775">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="811" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571292356515" />
-    <state x="540" y="174" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1571292353048">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="526" y="279" width="304" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1366.741@0.27.1366.741" timestamp="1572984679775" />
+    <state width="1298" height="164" key="GridCell.Tab.0.bottom" timestamp="1572986831294">
+      <screen x="0" y="27" width="2646" height="741" />
     </state>
-    <state x="540" y="174" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571292353048" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1571292348238">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1298" height="164" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1572986197570" />
+    <state width="1298" height="164" key="GridCell.Tab.0.bottom/0.27.2646.741@0.27.2646.741" timestamp="1572986831294" />
+    <state width="1298" height="164" key="GridCell.Tab.0.center" timestamp="1572986831290">
+      <screen x="0" y="27" width="2646" height="741" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571292348238" />
-    <state width="933" height="280" key="GridCell.Tab.0.bottom" timestamp="1572535654638">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1298" height="164" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1572986197567" />
+    <state width="1298" height="164" key="GridCell.Tab.0.center/0.27.2646.741@0.27.2646.741" timestamp="1572986831290" />
+    <state width="1298" height="164" key="GridCell.Tab.0.left" timestamp="1572986831288">
+      <screen x="0" y="27" width="2646" height="741" />
     </state>
-    <state width="933" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1572535654638" />
-    <state width="933" height="280" key="GridCell.Tab.0.center" timestamp="1572535654638">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1298" height="164" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1572986197564" />
+    <state width="1298" height="164" key="GridCell.Tab.0.left/0.27.2646.741@0.27.2646.741" timestamp="1572986831288" />
+    <state width="1298" height="164" key="GridCell.Tab.0.right" timestamp="1572986831292">
+      <screen x="0" y="27" width="2646" height="741" />
     </state>
-    <state width="933" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1572535654638" />
-    <state width="933" height="280" key="GridCell.Tab.0.left" timestamp="1572535654638">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="933" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1572535654638" />
-    <state width="933" height="280" key="GridCell.Tab.0.right" timestamp="1572535654638">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="933" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1572535654638" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1572016319311">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1572016319311" />
-    <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1571292304001">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="661" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571292304001" />
-    <state x="690" y="275" key="extract.method.dialog" timestamp="1571329688785">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="275" key="extract.method.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571329688785" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1571985572352">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571985572352" />
+    <state width="1298" height="164" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1572986197568" />
+    <state width="1298" height="164" key="GridCell.Tab.0.right/0.27.2646.741@0.27.2646.741" timestamp="1572986831292" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ThinkingInJava</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
