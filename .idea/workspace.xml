@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="collections:some code from the book.TextFile.java">
-      <change afterPath="$PROJECT_DIR$/src/strings/Scanner20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toys/GenericToyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toys/ToyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toys/ToyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toys/ToyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,14 +183,7 @@
       <workItem from="1556823867186" duration="5828000" />
       <workItem from="1560284780202" duration="68000" />
       <workItem from="1571292301951" duration="38420000" />
-      <workItem from="1573027544183" duration="3097000" />
-    </task>
-    <task id="LOCAL-00006" summary="interfaces task 11 returned string from method">
-      <created>1544048327978</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1544048327978</updated>
+      <workItem from="1573027544183" duration="3416000" />
     </task>
     <task id="LOCAL-00007" summary="interfaces task 11 seems done">
       <created>1544133420916</created>
@@ -532,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572016316075</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="work with types">
+      <created>1573746249029</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1573746249030</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TodoView">
@@ -585,7 +581,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="program Callbaks.java from the book" />
     <MESSAGE value="inner classes and control frameworks from the book" />
     <MESSAGE value="task 24 done" />
     <MESSAGE value="task 25 done" />
@@ -610,7 +605,8 @@
     <MESSAGE value="work with Exception Handling finished" />
     <MESSAGE value="work with strings" />
     <MESSAGE value="work with regular expressions" />
-    <option name="LAST_COMMIT_MESSAGE" value="work with regular expressions" />
+    <MESSAGE value="work with types" />
+    <option name="LAST_COMMIT_MESSAGE" value="work with types" />
   </component>
   <component name="WindowStateProjectService">
     <state x="811" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1573027624371">
@@ -625,26 +621,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571292348238" />
-    <state width="932" height="280" key="GridCell.Tab.0.bottom" timestamp="1573746103752">
+    <state width="932" height="280" key="GridCell.Tab.0.bottom" timestamp="1573746366691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573746103752" />
-    <state width="932" height="280" key="GridCell.Tab.0.center" timestamp="1573746103752">
+    <state width="932" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573746366691" />
+    <state width="932" height="280" key="GridCell.Tab.0.center" timestamp="1573746366691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573746103752" />
-    <state width="932" height="280" key="GridCell.Tab.0.left" timestamp="1573746103752">
+    <state width="932" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573746366691" />
+    <state width="932" height="280" key="GridCell.Tab.0.left" timestamp="1573746366690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573746103752" />
-    <state width="932" height="280" key="GridCell.Tab.0.right" timestamp="1573746103752">
+    <state width="932" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573746366690" />
+    <state width="932" height="280" key="GridCell.Tab.0.right" timestamp="1573746366691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573746103752" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1572016319311">
+    <state width="932" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573746366691" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1573746251958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1572016319311" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573746251958" />
     <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1571292304001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

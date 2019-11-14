@@ -3,6 +3,7 @@ package toys;
 interface HasBatteries {}
 interface Waterproof {}
 interface Shoots {}
+interface Material {}
 
 class Toy {
     // Comment out the following default constructor
@@ -12,7 +13,7 @@ class Toy {
 }
 
 class FancyToy extends Toy
-        implements HasBatteries, Waterproof, Shoots {
+        implements HasBatteries, Waterproof, Shoots, Material {
     FancyToy() { super(1); }
 }
 
