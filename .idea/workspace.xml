@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="collections:some code from the book.TextFile.java">
-      <change beforePath="$PROJECT_DIR$/src/toys/ToyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/toys/ToyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rttiAndReflection/t10/Ex10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rttiAndReflection/t3/Shapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rttiAndReflection/t4/Shapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rttiAndReflection/t7/SweetShop7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rttiAndReflection/t8/Ex8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rttiAndReflection/t9/Ex9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +44,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549872770614" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/exceptions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/rttiAndReflection/t4" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,26 +59,27 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pets" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\alexander.mikhailov\IdeaProjects\thinkingInJava\src\exceptions" />
-      <recent name="D:\Development\ThinkingInJava\src\collections\task9" />
-      <recent name="D:\Development\ThinkingInJava\src\innerClasses\task17" />
-      <recent name="D:\Development\ThinkingInJava\src\patterns" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alexander.mikhailov\IdeaProjects\thinkingInJava\src\rttiAndReflection\t4" />
+      <recent name="C:\Users\alexander.mikhailov\IdeaProjects\thinkingInJava\src\rttiAndReflection" />
+      <recent name="C:\Users\alexander.mikhailov\IdeaProjects\thinkingInJava\src\exceptions" />
+      <recent name="D:\Development\ThinkingInJava\src\collections\task9" />
+      <recent name="D:\Development\ThinkingInJava\src\innerClasses\task17" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pets" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ToyTest">
-    <configuration name="Ex11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Ex11" />
+  <component name="RunManager" selected="Application.Ex10">
+    <configuration name="Ex10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rttiAndReflection.t10.Ex10" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="rttiAndReflection.t10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scanner20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Scanner20" />
+    <configuration name="Ex8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rttiAndReflection.t8.Ex8" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="rttiAndReflection.t8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Splitting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Splitting" />
+    <configuration name="Ex9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rttiAndReflection.t9.Ex9" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="rttiAndReflection.t9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRegularExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.TestRegularExpression" />
+    <configuration name="Shapes (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rttiAndReflection.t4.Shapes" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="rttiAndReflection.t4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="toys.ToyTest" />
+    <configuration name="SweetShop7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rttiAndReflection.t7.SweetShop7" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="toys.*" />
+          <option name="PATTERN" value="rttiAndReflection.t7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,19 +140,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Splitting" />
-      <item itemvalue="Application.Ex11" />
-      <item itemvalue="Application.TestRegularExpression" />
-      <item itemvalue="Application.Scanner20" />
-      <item itemvalue="Application.ToyTest" />
+      <item itemvalue="Application.Shapes (1)" />
+      <item itemvalue="Application.SweetShop7" />
+      <item itemvalue="Application.Ex8" />
+      <item itemvalue="Application.Ex9" />
+      <item itemvalue="Application.Ex10" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ToyTest" />
-        <item itemvalue="Application.Scanner20" />
-        <item itemvalue="Application.Ex11" />
-        <item itemvalue="Application.TestRegularExpression" />
-        <item itemvalue="Application.Splitting" />
+        <item itemvalue="Application.Ex10" />
+        <item itemvalue="Application.Ex9" />
+        <item itemvalue="Application.Ex8" />
+        <item itemvalue="Application.SweetShop7" />
+        <item itemvalue="Application.Shapes (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -183,14 +190,7 @@
       <workItem from="1556823867186" duration="5828000" />
       <workItem from="1560284780202" duration="68000" />
       <workItem from="1571292301951" duration="38420000" />
-      <workItem from="1573027544183" duration="3416000" />
-    </task>
-    <task id="LOCAL-00007" summary="interfaces task 11 seems done">
-      <created>1544133420916</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1544133420916</updated>
+      <workItem from="1573027544183" duration="16619000" />
     </task>
     <task id="LOCAL-00008" summary="interfaces task 11 done with interface implementation">
       <created>1545298085993</created>
@@ -528,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573746249030</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="work with types part2">
+      <created>1573746582060</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1573746582060</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TodoView">
@@ -581,7 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="inner classes and control frameworks from the book" />
     <MESSAGE value="task 24 done" />
     <MESSAGE value="task 25 done" />
     <MESSAGE value="task 26 start" />
@@ -606,9 +612,14 @@
     <MESSAGE value="work with strings" />
     <MESSAGE value="work with regular expressions" />
     <MESSAGE value="work with types" />
-    <option name="LAST_COMMIT_MESSAGE" value="work with types" />
+    <MESSAGE value="work with types part2" />
+    <option name="LAST_COMMIT_MESSAGE" value="work with types part2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1573801262878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573801262878" />
     <state x="811" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1573027624371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -621,26 +632,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1571292348238" />
-    <state width="932" height="280" key="GridCell.Tab.0.bottom" timestamp="1573746366691">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1573827220507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573746366691" />
-    <state width="932" height="280" key="GridCell.Tab.0.center" timestamp="1573746366691">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573827220507" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1573827220506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573746366691" />
-    <state width="932" height="280" key="GridCell.Tab.0.left" timestamp="1573746366690">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573827220506" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1573827220506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573746366690" />
-    <state width="932" height="280" key="GridCell.Tab.0.right" timestamp="1573746366691">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573827220506" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1573827220506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573746366691" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1573746251958">
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573827220506" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1573746583631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573746251958" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1573746583631" />
     <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1571292304001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
