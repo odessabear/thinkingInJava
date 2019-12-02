@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9e88282-dbc5-4fab-8f5f-19f3d75c3bfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/rtti_and_reflection/proxy/SimpleProxyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+    <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/strings/Groups12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/SplitDemo14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/StartEnd13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExerciseTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InheritanceExample.java" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -27,26 +29,52 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1URXpthjrTvZlYC7fKUkHOSH92x" />
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1658" />
+    <option name="height" value="1046" />
   </component>
-  <component name="RunManager">
-    <configuration name="SimpleProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.rtti_and_reflection.proxy.SimpleProxyDemo" />
-      <module name="thinkingInJava" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549872770614" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\ThinkingInJava\src\collections\task9" />
+      <recent name="D:\Development\ThinkingInJava\src\innerClasses\task17" />
+      <recent name="D:\Development\ThinkingInJava\src\patterns" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SplitDemo14">
+    <configuration name="Groups12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.Groups12" />
+      <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.rtti_and_reflection.proxy.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,34 +82,642 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReferenceWithStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.task15.ReferenceWithStack" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.task15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SplitDemo14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.SplitDemo14" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartEnd13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.StartEnd13" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniqueWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.task16.UniqueWords" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.task16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ReferenceWithStack" />
+      <item itemvalue="Application.UniqueWords" />
+      <item itemvalue="Application.Groups12" />
+      <item itemvalue="Application.StartEnd13" />
+      <item itemvalue="Application.SplitDemo14" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleProxyDemo" />
+        <item itemvalue="Application.SplitDemo14" />
+        <item itemvalue="Application.StartEnd13" />
+        <item itemvalue="Application.Groups12" />
+        <item itemvalue="Application.UniqueWords" />
+        <item itemvalue="Application.ReferenceWithStack" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView />
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b9e88282-dbc5-4fab-8f5f-19f3d75c3bfa" name="Default Changelist" comment="" />
-      <created>1575320567206</created>
+      <changelist id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="" />
+      <created>1532961826224</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575320567206</updated>
+      <updated>1532961826224</updated>
+      <workItem from="1532961831814" duration="12580000" />
+      <workItem from="1539960873293" duration="3845000" />
+      <workItem from="1540378294363" duration="6335000" />
+      <workItem from="1541169053492" duration="7937000" />
+      <workItem from="1544126210590" duration="5485000" />
+      <workItem from="1547156494951" duration="719000" />
+      <workItem from="1548272993735" duration="5738000" />
+      <workItem from="1550507092472" duration="379000" />
+      <workItem from="1550508324444" duration="17199000" />
+      <workItem from="1551114485277" duration="44412000" />
+      <workItem from="1551973873715" duration="704000" />
+      <workItem from="1552324816060" duration="3696000" />
+      <workItem from="1552496150681" duration="636000" />
+      <workItem from="1552665030542" duration="10217000" />
+      <workItem from="1553097373174" duration="44816000" />
+      <workItem from="1554124207087" duration="21736000" />
+      <workItem from="1554912137900" duration="19242000" />
+      <workItem from="1555353528315" duration="6729000" />
+      <workItem from="1555442077031" duration="7699000" />
+      <workItem from="1556134906107" duration="1499000" />
+      <workItem from="1556658103711" duration="984000" />
+      <workItem from="1556823867186" duration="5828000" />
+      <workItem from="1560284780202" duration="68000" />
     </task>
+    <task id="LOCAL-00001" summary="polymorphism:worked with Music.java file">
+      <created>1541006261655</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541006261655</updated>
+    </task>
+    <task id="LOCAL-00002" summary="polymorphism:worked with Music.java file/Added new subclass and random output of instruments.">
+      <created>1541171520284</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541171520284</updated>
+    </task>
+    <task id="LOCAL-00003" summary="counting Task">
+      <created>1542301806491</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542301806491</updated>
+    </task>
+    <task id="LOCAL-00004" summary="interface tasks 8 and 9">
+      <created>1543513204265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543513204265</updated>
+    </task>
+    <task id="LOCAL-00005" summary="interfaces task 11">
+      <created>1543596689935</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543596689935</updated>
+    </task>
+    <task id="LOCAL-00006" summary="interfaces task 11 returned string from method">
+      <created>1544048327978</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544048327978</updated>
+    </task>
+    <task id="LOCAL-00007" summary="interfaces task 11 seems done">
+      <created>1544133420916</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544133420916</updated>
+    </task>
+    <task id="LOCAL-00008" summary="interfaces task 11 done with interface implementation">
+      <created>1545298085993</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1545298085994</updated>
+    </task>
+    <task id="LOCAL-00009" summary="interfaces tasks 12 and 13">
+      <created>1545325652596</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1545325652596</updated>
+    </task>
+    <task id="LOCAL-00010" summary="interfaces: task 14 done">
+      <created>1545931333328</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1545931333328</updated>
+    </task>
+    <task id="LOCAL-00011" summary="interfaces: task 18 done">
+      <created>1549479198545</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1549479198545</updated>
+    </task>
+    <task id="LOCAL-00012" summary="interfaces: task 18 done">
+      <created>1549479335663</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1549479335663</updated>
+    </task>
+    <task id="LOCAL-00013" summary="interfaces: task 19 done">
+      <created>1549563050931</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1549563050931</updated>
+    </task>
+    <task id="LOCAL-00014" summary="innerClasses: task 1 done">
+      <created>1549651729863</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1549651729863</updated>
+    </task>
+    <task id="LOCAL-00015" summary="innerClasses: tasks 4,5 and 6 done">
+      <created>1550516327529</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1550516327530</updated>
+    </task>
+    <task id="LOCAL-00016" summary="innerClasses: tasks 4,5 and 6 done">
+      <created>1550516811004</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1550516811004</updated>
+    </task>
+    <task id="LOCAL-00017" summary="innerClasses: tasks 4,5 and 6">
+      <created>1550517275519</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1550517275519</updated>
+    </task>
+    <task id="LOCAL-00018" summary="innerClasses: tasks 7 in progress">
+      <created>1550597794450</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1550597794450</updated>
+    </task>
+    <task id="LOCAL-00019" summary="innerClasses: tasks 7 and 8 done">
+      <created>1550681343098</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1550681343098</updated>
+    </task>
+    <task id="LOCAL-00020" summary="innerClasses: tasks 7_1 and 8_1 and 9 done">
+      <created>1551122366274</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1551122366274</updated>
+    </task>
+    <task id="LOCAL-00021" summary="innerClasses: tasks 10, 11 and 12 done">
+      <created>1551292340271</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1551292340271</updated>
+    </task>
+    <task id="LOCAL-00022" summary="innerClasses: task 13 done">
+      <created>1551380797693</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1551380797693</updated>
+    </task>
+    <task id="LOCAL-00023" summary="returned changes in the interfaces.task11">
+      <created>1551722127714</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1551722127714</updated>
+    </task>
+    <task id="LOCAL-00024" summary=".gitignore file has been added">
+      <created>1551803657724</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1551803657724</updated>
+    </task>
+    <task id="LOCAL-00025" summary="task 15(17) was done">
+      <created>1551807766105</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1551807766105</updated>
+    </task>
+    <task id="LOCAL-00026" summary="tasks  16 and 17 were done">
+      <created>1551894555389</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1551894555389</updated>
+    </task>
+    <task id="LOCAL-00027" summary="task 22 in the process">
+      <created>1552417476272</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1552417476272</updated>
+    </task>
+    <task id="LOCAL-00028" summary="task 23 done">
+      <created>1552673182380</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1552673182380</updated>
+    </task>
+    <task id="LOCAL-00029" summary="task 23 done">
+      <created>1552673306549</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1552673306549</updated>
+    </task>
+    <task id="LOCAL-00030" summary="program Callbaks.java from the book">
+      <created>1552931170651</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1552931170652</updated>
+    </task>
+    <task id="LOCAL-00031" summary="inner classes and control frameworks from the book">
+      <created>1553108520312</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1553108520313</updated>
+    </task>
+    <task id="LOCAL-00032" summary="task 24 done">
+      <created>1553193767421</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1553193767421</updated>
+    </task>
+    <task id="LOCAL-00033" summary="task 25 done">
+      <created>1553533803648</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1553533803648</updated>
+    </task>
+    <task id="LOCAL-00034" summary="task 26 start">
+      <created>1553535513449</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1553535513449</updated>
+    </task>
+    <task id="LOCAL-00035" summary="task 26 done">
+      <created>1553680768800</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1553680768800</updated>
+    </task>
+    <task id="LOCAL-00036" summary="inner classes:code from the book">
+      <created>1553709639195</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1553709639195</updated>
+    </task>
+    <task id="LOCAL-00037" summary="collections: tasks 1,2 and 3 done">
+      <created>1553796941457</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1553796941457</updated>
+    </task>
+    <task id="LOCAL-00038" summary="collections: task 4 done">
+      <created>1554371415174</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1554371415174</updated>
+    </task>
+    <task id="LOCAL-00039" summary="collections: code from the book ListFeatures.java and pets library">
+      <created>1554399155553</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1554399155553</updated>
+    </task>
+    <task id="LOCAL-00040" summary="collections:task5 IntegerListFeatures.java almost done">
+      <created>1554486064470</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1554486064470</updated>
+    </task>
+    <task id="LOCAL-00041" summary="collections:task5 IntegerListFeatures.java is done">
+      <created>1554744504318</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1554744504318</updated>
+    </task>
+    <task id="LOCAL-00042" summary="collections:task7 is done">
+      <created>1554919494301</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1554919494301</updated>
+    </task>
+    <task id="LOCAL-00043" summary="collections:task 9  is in the process">
+      <created>1555005342715</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1555005342715</updated>
+    </task>
+    <task id="LOCAL-00044" summary="collections:tasks 10 and 11 were done">
+      <created>1555361205372</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1555361205372</updated>
+    </task>
+    <task id="LOCAL-00045" summary="collections:tasks 13 and 14 were done">
+      <created>1556054240678</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1556054240678</updated>
+    </task>
+    <task id="LOCAL-00046" summary="collections:tasks 13 and 14 were done version3">
+      <created>1556054373829</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1556054373829</updated>
+    </task>
+    <task id="LOCAL-00047" summary="collections:some code from the book.Stack's realisation">
+      <created>1556136402680</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1556136402680</updated>
+    </task>
+    <task id="LOCAL-00048" summary="collections:task 15 was done">
+      <created>1556832711901</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1556832711901</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="returned changes in the interfaces.task11" />
+    <MESSAGE value=".gitignore file has been added" />
+    <MESSAGE value="task 15(17) was done" />
+    <MESSAGE value="tasks  16 and 17 were done" />
+    <MESSAGE value="task 22 in the process" />
+    <MESSAGE value="task 23 done" />
+    <MESSAGE value="program Callbaks.java from the book" />
+    <MESSAGE value="inner classes and control frameworks from the book" />
+    <MESSAGE value="task 24 done" />
+    <MESSAGE value="task 25 done" />
+    <MESSAGE value="task 26 start" />
+    <MESSAGE value="task 26 done" />
+    <MESSAGE value="inner classes:code from the book" />
+    <MESSAGE value="collections: tasks 1,2 and 3 done" />
+    <MESSAGE value="collections: task 4 done" />
+    <MESSAGE value="collections: code from the book ListFeatures.java and pets library" />
+    <MESSAGE value="collections:task5 IntegerListFeatures.java almost done" />
+    <MESSAGE value="collections:task5 IntegerListFeatures.java is done" />
+    <MESSAGE value="collections:task7 is done" />
+    <MESSAGE value="collections:task 9  is in the process" />
+    <MESSAGE value="collections:tasks 10 and 11 were done" />
+    <MESSAGE value="collections:tasks 13 and 14 were done" />
+    <MESSAGE value="collections:tasks 13 and 14 were done version3" />
+    <MESSAGE value="collections:some code from the book.Stack's realisation" />
+    <MESSAGE value="collections:task 15 was done" />
+    <option name="LAST_COMMIT_MESSAGE" value="collections:task 15 was done" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="526" y="279" width="304" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1572984679775">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="526" y="279" width="304" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1366.741@0.27.1366.741" timestamp="1572984679775" />
+    <state width="1298" height="164" key="GridCell.Tab.0.bottom" timestamp="1572986831294">
+      <screen x="0" y="27" width="2646" height="741" />
+    </state>
+    <state width="1298" height="164" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1572986197570" />
+    <state width="1298" height="164" key="GridCell.Tab.0.bottom/0.27.2646.741@0.27.2646.741" timestamp="1572986831294" />
+    <state width="1298" height="164" key="GridCell.Tab.0.center" timestamp="1572986831290">
+      <screen x="0" y="27" width="2646" height="741" />
+    </state>
+    <state width="1298" height="164" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1572986197567" />
+    <state width="1298" height="164" key="GridCell.Tab.0.center/0.27.2646.741@0.27.2646.741" timestamp="1572986831290" />
+    <state width="1298" height="164" key="GridCell.Tab.0.left" timestamp="1572986831288">
+      <screen x="0" y="27" width="2646" height="741" />
+    </state>
+    <state width="1298" height="164" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1572986197564" />
+    <state width="1298" height="164" key="GridCell.Tab.0.left/0.27.2646.741@0.27.2646.741" timestamp="1572986831288" />
+    <state width="1298" height="164" key="GridCell.Tab.0.right" timestamp="1572986831292">
+      <screen x="0" y="27" width="2646" height="741" />
+    </state>
+    <state width="1298" height="164" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1572986197568" />
+    <state width="1298" height="164" key="GridCell.Tab.0.right/0.27.2646.741@0.27.2646.741" timestamp="1572986831292" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ThinkingInJava</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
