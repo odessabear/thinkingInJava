@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/strings/Groups12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/SplitDemo14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/StartEnd13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b9e88282-dbc5-4fab-8f5f-19f3d75c3bfa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/rtti_and_reflection/proxy/SelectingMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rtti_and_reflection/proxy/SimpleDynamicProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +33,15 @@
     <option name="width" value="1658" />
     <option name="height" value="1046" />
   </component>
+  <component name="ProjectId" id="1Uto4oa8t6su05c3vkYkI8RG9bB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -68,7 +73,7 @@
       <recent name="pets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SplitDemo14">
+  <component name="RunManager" selected="Application.SimpleDynamicProxy">
     <configuration name="Groups12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.Groups12" />
       <module name="ThinkingInJava" />
@@ -82,12 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReferenceWithStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.task15.ReferenceWithStack" />
-      <module name="ThinkingInJava" />
+    <configuration name="SelectingMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.rtti_and_reflection.proxy.SelectingMethods" />
+      <module name="thinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.task15.*" />
+          <option name="PATTERN" value="src.rtti_and_reflection.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleDynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.rtti_and_reflection.proxy.SimpleDynamicProxy" />
+      <module name="thinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.rtti_and_reflection.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,7 +115,7 @@
     </configuration>
     <configuration name="SplitDemo14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.SplitDemo14" />
-      <module name="ThinkingInJava" />
+      <module name="thinkingInJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="strings.*" />
@@ -121,40 +139,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.task16.UniqueWords" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.task16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.ReferenceWithStack" />
-      <item itemvalue="Application.UniqueWords" />
       <item itemvalue="Application.Groups12" />
       <item itemvalue="Application.StartEnd13" />
       <item itemvalue="Application.SplitDemo14" />
+      <item itemvalue="Application.SimpleDynamicProxy" />
+      <item itemvalue="Application.SelectingMethods" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleDynamicProxy" />
+        <item itemvalue="Application.SelectingMethods" />
         <item itemvalue="Application.SplitDemo14" />
         <item itemvalue="Application.StartEnd13" />
         <item itemvalue="Application.Groups12" />
-        <item itemvalue="Application.UniqueWords" />
-        <item itemvalue="Application.ReferenceWithStack" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
-        <serviceView />
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -163,7 +173,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fed7ff02-28af-41a8-a844-49b87f96978d" name="Default Changelist" comment="" />
+      <changelist id="b9e88282-dbc5-4fab-8f5f-19f3d75c3bfa" name="Default Changelist" comment="" />
       <created>1532961826224</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -191,6 +201,7 @@
       <workItem from="1556658103711" duration="984000" />
       <workItem from="1556823867186" duration="5828000" />
       <workItem from="1560284780202" duration="68000" />
+      <workItem from="1576185129911" duration="2899000" />
     </task>
     <task id="LOCAL-00001" summary="polymorphism:worked with Music.java file">
       <created>1541006261655</created>
@@ -528,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556832711901</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="collections:task 15 was done">
+      <created>1575324184575</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1575324184575</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TodoView">
@@ -609,30 +627,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="collections:task 15 was done" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="141" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576185600114">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="141" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1576185600114" />
+    <state x="491" y="98" width="374" height="586" key="#com.intellij.ide.util.MemberChooser" timestamp="1576187172196">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="491" y="98" width="374" height="586" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1576187172196" />
     <state x="526" y="279" width="304" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1572984679775">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="526" y="279" width="304" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1366.741@0.27.1366.741" timestamp="1572984679775" />
-    <state width="1298" height="164" key="GridCell.Tab.0.bottom" timestamp="1572986831294">
-      <screen x="0" y="27" width="2646" height="741" />
+    <state width="1298" height="165" key="GridCell.Tab.0.bottom" timestamp="1576188035666">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state width="1298" height="165" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1576188035666" />
     <state width="1298" height="164" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1572986197570" />
     <state width="1298" height="164" key="GridCell.Tab.0.bottom/0.27.2646.741@0.27.2646.741" timestamp="1572986831294" />
-    <state width="1298" height="164" key="GridCell.Tab.0.center" timestamp="1572986831290">
-      <screen x="0" y="27" width="2646" height="741" />
+    <state width="1298" height="165" key="GridCell.Tab.0.center" timestamp="1576188035665">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state width="1298" height="165" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1576188035665" />
     <state width="1298" height="164" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1572986197567" />
     <state width="1298" height="164" key="GridCell.Tab.0.center/0.27.2646.741@0.27.2646.741" timestamp="1572986831290" />
-    <state width="1298" height="164" key="GridCell.Tab.0.left" timestamp="1572986831288">
-      <screen x="0" y="27" width="2646" height="741" />
+    <state width="1298" height="165" key="GridCell.Tab.0.left" timestamp="1576188035665">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state width="1298" height="165" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1576188035665" />
     <state width="1298" height="164" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1572986197564" />
     <state width="1298" height="164" key="GridCell.Tab.0.left/0.27.2646.741@0.27.2646.741" timestamp="1572986831288" />
-    <state width="1298" height="164" key="GridCell.Tab.0.right" timestamp="1572986831292">
-      <screen x="0" y="27" width="2646" height="741" />
+    <state width="1298" height="165" key="GridCell.Tab.0.right" timestamp="1576188035665">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state width="1298" height="165" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1576188035665" />
     <state width="1298" height="164" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1572986197568" />
     <state width="1298" height="164" key="GridCell.Tab.0.right/0.27.2646.741@0.27.2646.741" timestamp="1572986831292" />
+    <state x="345" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1576185528053">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="345" y="215" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1576185528053" />
   </component>
   <component name="masterDetails">
     <states>
